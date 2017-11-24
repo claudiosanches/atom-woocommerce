@@ -1,0 +1,92 @@
+{
+    ".source.php": {
+        "Constant: WC_PLUGIN_FILE": {
+            "prefix": "WC_PLUGIN_FILE",
+            "body": "WC_PLUGIN_FILE"
+        },
+        "Constant: WC_DOING_AJAX": {
+            "prefix": "WC_DOING_AJAX",
+            "body": "WC_DOING_AJAX"
+        },
+        "Constant: WOOCOMMERCE_CART": {
+            "prefix": "WOOCOMMERCE_CART",
+            "body": "WOOCOMMERCE_CART"
+        },
+        "Constant: WOOCOMMERCE_CHECKOUT": {
+            "prefix": "WOOCOMMERCE_CHECKOUT",
+            "body": "WOOCOMMERCE_CHECKOUT"
+        },
+        "Constant: WC_MAX_LINKED_VARIATIONS": {
+            "prefix": "WC_MAX_LINKED_VARIATIONS",
+            "body": "WC_MAX_LINKED_VARIATIONS"
+        },
+        "Constant: WC_UPDATING": {
+            "prefix": "WC_UPDATING",
+            "body": "WC_UPDATING"
+        },
+        "Constant: WC_INSTALLING": {
+            "prefix": "WC_INSTALLING",
+            "body": "WC_INSTALLING"
+        },
+        "Constant: WC_API_REQUEST": {
+            "prefix": "WC_API_REQUEST",
+            "body": "WC_API_REQUEST"
+        },
+        "Constant: WC_API_REQUEST_VERSION": {
+            "prefix": "WC_API_REQUEST_VERSION",
+            "body": "WC_API_REQUEST_VERSION"
+        },
+        "Constant: WC_ABSPATH": {
+            "prefix": "WC_ABSPATH",
+            "body": "WC_ABSPATH"
+        },
+        "Constant: WC_PLUGIN_BASENAME": {
+            "prefix": "WC_PLUGIN_BASENAME",
+            "body": "WC_PLUGIN_BASENAME"
+        },
+        "Constant: WC_VERSION": {
+            "prefix": "WC_VERSION",
+            "body": "WC_VERSION"
+        },
+        "Constant: WOOCOMMERCE_VERSION": {
+            "prefix": "WOOCOMMERCE_VERSION",
+            "body": "WOOCOMMERCE_VERSION"
+        },
+        "Constant: WC_ROUNDING_PRECISION": {
+            "prefix": "WC_ROUNDING_PRECISION",
+            "body": "WC_ROUNDING_PRECISION"
+        },
+        "Constant: WC_DISCOUNT_ROUNDING_MODE": {
+            "prefix": "WC_DISCOUNT_ROUNDING_MODE",
+            "body": "WC_DISCOUNT_ROUNDING_MODE"
+        },
+        "Constant: WC_TAX_ROUNDING_MODE": {
+            "prefix": "WC_TAX_ROUNDING_MODE",
+            "body": "WC_TAX_ROUNDING_MODE"
+        },
+        "Constant: WC_DELIMITER": {
+            "prefix": "WC_DELIMITER",
+            "body": "WC_DELIMITER"
+        },
+        "Constant: WC_LOG_DIR": {
+            "prefix": "WC_LOG_DIR",
+            "body": "WC_LOG_DIR"
+        },
+        "Constant: WC_SESSION_CACHE_GROUP": {
+            "prefix": "WC_SESSION_CACHE_GROUP",
+            "body": "WC_SESSION_CACHE_GROUP"
+        },
+        "Constant: WC_TEMPLATE_DEBUG_MODE": {
+            "prefix": "WC_TEMPLATE_DEBUG_MODE",
+            "body": "WC_TEMPLATE_DEBUG_MODE"
+        },
+        "Constant: WC_TEMPLATE_PATH": {
+            "prefix": "WC_TEMPLATE_PATH",
+            "body": "WC_TEMPLATE_PATH"
+        },
+        "Constant: WC_USE_TRANSACTIONS": {
+            "prefix": "WC_USE_TRANSACTIONS",
+            "body": "WC_USE_TRANSACTIONS"
+        }
+    }
+}

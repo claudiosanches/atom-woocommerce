@@ -1,0 +1,2092 @@
+{
+    ".source.php": {
+        "Function: wc()": {
+            "prefix": "wc",
+            "body": "wc()"
+        },
+        "Function: wc_lostpassword_url()": {
+            "prefix": "wc_lostpassword_url",
+            "body": "wc_lostpassword_url( ${1:default_url} )"
+        },
+        "Function: wc_customer_edit_account_url()": {
+            "prefix": "wc_customer_edit_account_url",
+            "body": "wc_customer_edit_account_url()"
+        },
+        "Function: wc_edit_address_i18n()": {
+            "prefix": "wc_edit_address_i18n",
+            "body": "wc_edit_address_i18n( ${1:id}${2:, ${3:flip}} )"
+        },
+        "Function: wc_get_account_menu_items()": {
+            "prefix": "wc_get_account_menu_items",
+            "body": "wc_get_account_menu_items()"
+        },
+        "Function: wc_get_account_menu_item_classes()": {
+            "prefix": "wc_get_account_menu_item_classes",
+            "body": "wc_get_account_menu_item_classes( ${1:endpoint} )"
+        },
+        "Function: wc_get_account_endpoint_url()": {
+            "prefix": "wc_get_account_endpoint_url",
+            "body": "wc_get_account_endpoint_url( ${1:endpoint} )"
+        },
+        "Function: wc_get_account_orders_columns()": {
+            "prefix": "wc_get_account_orders_columns",
+            "body": "wc_get_account_orders_columns()"
+        },
+        "Function: wc_get_account_downloads_columns()": {
+            "prefix": "wc_get_account_downloads_columns",
+            "body": "wc_get_account_downloads_columns()"
+        },
+        "Function: wc_get_account_payment_methods_columns()": {
+            "prefix": "wc_get_account_payment_methods_columns",
+            "body": "wc_get_account_payment_methods_columns()"
+        },
+        "Function: wc_get_account_payment_methods_types()": {
+            "prefix": "wc_get_account_payment_methods_types",
+            "body": "wc_get_account_payment_methods_types()"
+        },
+        "Function: wc_get_account_orders_actions()": {
+            "prefix": "wc_get_account_orders_actions",
+            "body": "wc_get_account_orders_actions( ${1:order} )"
+        },
+        "Function: wc_get_account_formatted_address()": {
+            "prefix": "wc_get_account_formatted_address",
+            "body": "wc_get_account_formatted_address( ${1:${2:address_type}${3:, ${4:customer_id}}} )"
+        },
+        "Function: wc_get_account_saved_payment_methods_list()": {
+            "prefix": "wc_get_account_saved_payment_methods_list",
+            "body": "wc_get_account_saved_payment_methods_list( ${1:list}, ${2:customer_id} )"
+        },
+        "Function: wc_get_account_saved_payment_methods_list_item_cc()": {
+            "prefix": "wc_get_account_saved_payment_methods_list_item_cc",
+            "body": "wc_get_account_saved_payment_methods_list_item_cc( ${1:item}, ${2:payment_token} )"
+        },
+        "Function: wc_get_account_saved_payment_methods_list_item_echeck()": {
+            "prefix": "wc_get_account_saved_payment_methods_list_item_echeck",
+            "body": "wc_get_account_saved_payment_methods_list_item_echeck( ${1:item}, ${2:payment_token} )"
+        },
+        "Function: wc_get_text_attributes()": {
+            "prefix": "wc_get_text_attributes",
+            "body": "wc_get_text_attributes( ${1:raw_attributes} )"
+        },
+        "Function: wc_get_text_attributes_filter_callback()": {
+            "prefix": "wc_get_text_attributes_filter_callback",
+            "body": "wc_get_text_attributes_filter_callback( ${1:value} )"
+        },
+        "Function: wc_implode_text_attributes()": {
+            "prefix": "wc_implode_text_attributes",
+            "body": "wc_implode_text_attributes( ${1:attributes} )"
+        },
+        "Function: wc_get_attribute_taxonomies()": {
+            "prefix": "wc_get_attribute_taxonomies",
+            "body": "wc_get_attribute_taxonomies()"
+        },
+        "Function: wc_attribute_taxonomy_name()": {
+            "prefix": "wc_attribute_taxonomy_name",
+            "body": "wc_attribute_taxonomy_name( ${1:attribute_name} )"
+        },
+        "Function: wc_variation_attribute_name()": {
+            "prefix": "wc_variation_attribute_name",
+            "body": "wc_variation_attribute_name( ${1:attribute_name} )"
+        },
+        "Function: wc_attribute_taxonomy_name_by_id()": {
+            "prefix": "wc_attribute_taxonomy_name_by_id",
+            "body": "wc_attribute_taxonomy_name_by_id( ${1:attribute_id} )"
+        },
+        "Function: wc_attribute_taxonomy_id_by_name()": {
+            "prefix": "wc_attribute_taxonomy_id_by_name",
+            "body": "wc_attribute_taxonomy_id_by_name( ${1:name} )"
+        },
+        "Function: wc_attribute_label()": {
+            "prefix": "wc_attribute_label",
+            "body": "wc_attribute_label( ${1:name}${2:, ${3:product}} )"
+        },
+        "Function: wc_attribute_orderby()": {
+            "prefix": "wc_attribute_orderby",
+            "body": "wc_attribute_orderby( ${1:name} )"
+        },
+        "Function: wc_get_attribute_taxonomy_names()": {
+            "prefix": "wc_get_attribute_taxonomy_names",
+            "body": "wc_get_attribute_taxonomy_names()"
+        },
+        "Function: wc_get_attribute_types()": {
+            "prefix": "wc_get_attribute_types",
+            "body": "wc_get_attribute_types()"
+        },
+        "Function: wc_get_attribute_type_label()": {
+            "prefix": "wc_get_attribute_type_label",
+            "body": "wc_get_attribute_type_label( ${1:type} )"
+        },
+        "Function: wc_check_if_attribute_name_is_reserved()": {
+            "prefix": "wc_check_if_attribute_name_is_reserved",
+            "body": "wc_check_if_attribute_name_is_reserved( ${1:attribute_name} )"
+        },
+        "Function: wc_attributes_array_filter_visible()": {
+            "prefix": "wc_attributes_array_filter_visible",
+            "body": "wc_attributes_array_filter_visible( ${1:attribute} )"
+        },
+        "Function: wc_attributes_array_filter_variation()": {
+            "prefix": "wc_attributes_array_filter_variation",
+            "body": "wc_attributes_array_filter_variation( ${1:attribute} )"
+        },
+        "Function: wc_is_attribute_in_product_name()": {
+            "prefix": "wc_is_attribute_in_product_name",
+            "body": "wc_is_attribute_in_product_name( ${1:attribute}, ${2:name} )"
+        },
+        "Function: wc_array_filter_default_attributes()": {
+            "prefix": "wc_array_filter_default_attributes",
+            "body": "wc_array_filter_default_attributes( ${1:attribute} )"
+        },
+        "Function: wc_get_attribute()": {
+            "prefix": "wc_get_attribute",
+            "body": "wc_get_attribute( ${1:id} )"
+        },
+        "Function: wc_create_attribute()": {
+            "prefix": "wc_create_attribute",
+            "body": "wc_create_attribute( ${1:args} )"
+        },
+        "Function: wc_update_attribute()": {
+            "prefix": "wc_update_attribute",
+            "body": "wc_update_attribute( ${1:id}, ${2:args} )"
+        },
+        "Function: wc_delete_attribute()": {
+            "prefix": "wc_delete_attribute",
+            "body": "wc_delete_attribute( ${1:id} )"
+        },
+        "Function: wc_protected_product_add_to_cart()": {
+            "prefix": "wc_protected_product_add_to_cart",
+            "body": "wc_protected_product_add_to_cart( ${1:passed}, ${2:product_id} )"
+        },
+        "Function: wc_empty_cart()": {
+            "prefix": "wc_empty_cart",
+            "body": "wc_empty_cart()"
+        },
+        "Function: wc_load_persistent_cart()": {
+            "prefix": "wc_load_persistent_cart",
+            "body": "wc_load_persistent_cart( ${1:user_login}, ${2:user} )"
+        },
+        "Function: wc_get_raw_referer()": {
+            "prefix": "wc_get_raw_referer",
+            "body": "wc_get_raw_referer()"
+        },
+        "Function: wc_add_to_cart_message()": {
+            "prefix": "wc_add_to_cart_message",
+            "body": "wc_add_to_cart_message( ${1:products}${2:, ${3:show_qty}${4:, ${5:return}}} )"
+        },
+        "Function: wc_format_list_of_items()": {
+            "prefix": "wc_format_list_of_items",
+            "body": "wc_format_list_of_items( ${1:items} )"
+        },
+        "Function: wc_clear_cart_after_payment()": {
+            "prefix": "wc_clear_cart_after_payment",
+            "body": "wc_clear_cart_after_payment()"
+        },
+        "Function: wc_cart_totals_subtotal_html()": {
+            "prefix": "wc_cart_totals_subtotal_html",
+            "body": "wc_cart_totals_subtotal_html()"
+        },
+        "Function: wc_cart_totals_shipping_html()": {
+            "prefix": "wc_cart_totals_shipping_html",
+            "body": "wc_cart_totals_shipping_html()"
+        },
+        "Function: wc_cart_totals_taxes_total_html()": {
+            "prefix": "wc_cart_totals_taxes_total_html",
+            "body": "wc_cart_totals_taxes_total_html()"
+        },
+        "Function: wc_cart_totals_coupon_label()": {
+            "prefix": "wc_cart_totals_coupon_label",
+            "body": "wc_cart_totals_coupon_label( ${1:coupon}${2:, ${3:echo}} )"
+        },
+        "Function: wc_cart_totals_coupon_html()": {
+            "prefix": "wc_cart_totals_coupon_html",
+            "body": "wc_cart_totals_coupon_html( ${1:coupon} )"
+        },
+        "Function: wc_cart_totals_order_total_html()": {
+            "prefix": "wc_cart_totals_order_total_html",
+            "body": "wc_cart_totals_order_total_html()"
+        },
+        "Function: wc_cart_totals_fee_html()": {
+            "prefix": "wc_cart_totals_fee_html",
+            "body": "wc_cart_totals_fee_html( ${1:fee} )"
+        },
+        "Function: wc_cart_totals_shipping_method_label()": {
+            "prefix": "wc_cart_totals_shipping_method_label",
+            "body": "wc_cart_totals_shipping_method_label( ${1:method} )"
+        },
+        "Function: wc_cart_round_discount()": {
+            "prefix": "wc_cart_round_discount",
+            "body": "wc_cart_round_discount( ${1:value}, ${2:precision} )"
+        },
+        "Function: wc_get_chosen_shipping_method_ids()": {
+            "prefix": "wc_get_chosen_shipping_method_ids",
+            "body": "wc_get_chosen_shipping_method_ids()"
+        },
+        "Function: wc_get_chosen_shipping_method_for_package()": {
+            "prefix": "wc_get_chosen_shipping_method_for_package",
+            "body": "wc_get_chosen_shipping_method_for_package( ${1:key}, ${2:package} )"
+        },
+        "Function: wc_get_default_shipping_method_for_package()": {
+            "prefix": "wc_get_default_shipping_method_for_package",
+            "body": "wc_get_default_shipping_method_for_package( ${1:key}, ${2:package}, ${3:chosen_method} )"
+        },
+        "Function: wc_shipping_methods_have_changed()": {
+            "prefix": "wc_shipping_methods_have_changed",
+            "body": "wc_shipping_methods_have_changed( ${1:key}, ${2:package} )"
+        },
+        "Function: is_woocommerce()": {
+            "prefix": "is_woocommerce",
+            "body": "is_woocommerce()"
+        },
+        "Function: is_shop()": {
+            "prefix": "is_shop",
+            "body": "is_shop()"
+        },
+        "Function: is_product_taxonomy()": {
+            "prefix": "is_product_taxonomy",
+            "body": "is_product_taxonomy()"
+        },
+        "Function: is_product_category()": {
+            "prefix": "is_product_category",
+            "body": "is_product_category( ${1:term} )"
+        },
+        "Function: is_product_tag()": {
+            "prefix": "is_product_tag",
+            "body": "is_product_tag( ${1:term} )"
+        },
+        "Function: is_product()": {
+            "prefix": "is_product",
+            "body": "is_product()"
+        },
+        "Function: is_cart()": {
+            "prefix": "is_cart",
+            "body": "is_cart()"
+        },
+        "Function: is_checkout()": {
+            "prefix": "is_checkout",
+            "body": "is_checkout()"
+        },
+        "Function: is_checkout_pay_page()": {
+            "prefix": "is_checkout_pay_page",
+            "body": "is_checkout_pay_page()"
+        },
+        "Function: is_wc_endpoint_url()": {
+            "prefix": "is_wc_endpoint_url",
+            "body": "is_wc_endpoint_url( ${1:endpoint} )"
+        },
+        "Function: is_account_page()": {
+            "prefix": "is_account_page",
+            "body": "is_account_page()"
+        },
+        "Function: is_view_order_page()": {
+            "prefix": "is_view_order_page",
+            "body": "is_view_order_page()"
+        },
+        "Function: is_edit_account_page()": {
+            "prefix": "is_edit_account_page",
+            "body": "is_edit_account_page()"
+        },
+        "Function: is_order_received_page()": {
+            "prefix": "is_order_received_page",
+            "body": "is_order_received_page()"
+        },
+        "Function: is_add_payment_method_page()": {
+            "prefix": "is_add_payment_method_page",
+            "body": "is_add_payment_method_page()"
+        },
+        "Function: is_lost_password_page()": {
+            "prefix": "is_lost_password_page",
+            "body": "is_lost_password_page()"
+        },
+        "Function: is_ajax()": {
+            "prefix": "is_ajax",
+            "body": "is_ajax()"
+        },
+        "Function: is_store_notice_showing()": {
+            "prefix": "is_store_notice_showing",
+            "body": "is_store_notice_showing()"
+        },
+        "Function: is_filtered()": {
+            "prefix": "is_filtered",
+            "body": "is_filtered()"
+        },
+        "Function: taxonomy_is_product_attribute()": {
+            "prefix": "taxonomy_is_product_attribute",
+            "body": "taxonomy_is_product_attribute( ${1:name} )"
+        },
+        "Function: meta_is_product_attribute()": {
+            "prefix": "meta_is_product_attribute",
+            "body": "meta_is_product_attribute( ${1:name}, ${2:value}, ${3:product_id} )"
+        },
+        "Function: wc_tax_enabled()": {
+            "prefix": "wc_tax_enabled",
+            "body": "wc_tax_enabled()"
+        },
+        "Function: wc_shipping_enabled()": {
+            "prefix": "wc_shipping_enabled",
+            "body": "wc_shipping_enabled()"
+        },
+        "Function: wc_prices_include_tax()": {
+            "prefix": "wc_prices_include_tax",
+            "body": "wc_prices_include_tax()"
+        },
+        "Function: wc_is_webhook_valid_topic()": {
+            "prefix": "wc_is_webhook_valid_topic",
+            "body": "wc_is_webhook_valid_topic( ${1:topic} )"
+        },
+        "Function: wc_is_valid_url()": {
+            "prefix": "wc_is_valid_url",
+            "body": "wc_is_valid_url( ${1:url} )"
+        },
+        "Function: wc_site_is_https()": {
+            "prefix": "wc_site_is_https",
+            "body": "wc_site_is_https()"
+        },
+        "Function: wc_checkout_is_https()": {
+            "prefix": "wc_checkout_is_https",
+            "body": "wc_checkout_is_https()"
+        },
+        "Function: wc_post_content_has_shortcode()": {
+            "prefix": "wc_post_content_has_shortcode",
+            "body": "wc_post_content_has_shortcode( ${1:tag} )"
+        },
+        "Function: wc_maybe_define_constant()": {
+            "prefix": "wc_maybe_define_constant",
+            "body": "wc_maybe_define_constant( ${1:name}, ${2:value} )"
+        },
+        "Function: wc_create_order()": {
+            "prefix": "wc_create_order",
+            "body": "wc_create_order( ${1:args} )"
+        },
+        "Function: wc_update_order()": {
+            "prefix": "wc_update_order",
+            "body": "wc_update_order( ${1:args} )"
+        },
+        "Function: wc_get_template_part()": {
+            "prefix": "wc_get_template_part",
+            "body": "wc_get_template_part( ${1:slug}${2:, ${3:name}} )"
+        },
+        "Function: wc_get_template()": {
+            "prefix": "wc_get_template",
+            "body": "wc_get_template( ${1:template_name}${2:, ${3:args}${4:, ${5:template_path}${6:, ${7:default_path}}}} )"
+        },
+        "Function: wc_get_template_html()": {
+            "prefix": "wc_get_template_html",
+            "body": "wc_get_template_html( ${1:template_name}${2:, ${3:args}${4:, ${5:template_path}${6:, ${7:default_path}}}} )"
+        },
+        "Function: wc_locate_template()": {
+            "prefix": "wc_locate_template",
+            "body": "wc_locate_template( ${1:template_name}${2:, ${3:template_path}${4:, ${5:default_path}}} )"
+        },
+        "Function: get_woocommerce_currency()": {
+            "prefix": "get_woocommerce_currency",
+            "body": "get_woocommerce_currency()"
+        },
+        "Function: get_woocommerce_currencies()": {
+            "prefix": "get_woocommerce_currencies",
+            "body": "get_woocommerce_currencies()"
+        },
+        "Function: get_woocommerce_currency_symbol()": {
+            "prefix": "get_woocommerce_currency_symbol",
+            "body": "get_woocommerce_currency_symbol( ${1:currency} )"
+        },
+        "Function: wc_mail()": {
+            "prefix": "wc_mail",
+            "body": "wc_mail( ${1:to}, ${2:subject}, ${3:message}${4:, ${5:headers}${6:, ${7:attachments}}} )"
+        },
+        "Function: wc_get_image_size()": {
+            "prefix": "wc_get_image_size",
+            "body": "wc_get_image_size( ${1:image_size} )"
+        },
+        "Function: wc_enqueue_js()": {
+            "prefix": "wc_enqueue_js",
+            "body": "wc_enqueue_js( ${1:code} )"
+        },
+        "Function: wc_print_js()": {
+            "prefix": "wc_print_js",
+            "body": "wc_print_js()"
+        },
+        "Function: wc_setcookie()": {
+            "prefix": "wc_setcookie",
+            "body": "wc_setcookie( ${1:name}, ${2:value}${3:, ${4:expire}${5:, ${6:secure}}} )"
+        },
+        "Function: get_woocommerce_api_url()": {
+            "prefix": "get_woocommerce_api_url",
+            "body": "get_woocommerce_api_url( ${1:path} )"
+        },
+        "Function: wc_get_log_file_path()": {
+            "prefix": "wc_get_log_file_path",
+            "body": "wc_get_log_file_path( ${1:handle} )"
+        },
+        "Function: wc_get_page_children()": {
+            "prefix": "wc_get_page_children",
+            "body": "wc_get_page_children( ${1:page_id} )"
+        },
+        "Function: flush_rewrite_rules_on_shop_page_save()": {
+            "prefix": "flush_rewrite_rules_on_shop_page_save",
+            "body": "flush_rewrite_rules_on_shop_page_save()"
+        },
+        "Function: wc_fix_rewrite_rules()": {
+            "prefix": "wc_fix_rewrite_rules",
+            "body": "wc_fix_rewrite_rules( ${1:rules} )"
+        },
+        "Function: wc_fix_product_attachment_link()": {
+            "prefix": "wc_fix_product_attachment_link",
+            "body": "wc_fix_product_attachment_link( ${1:link}, ${2:post_id} )"
+        },
+        "Function: wc_ms_protect_download_rewite_rules()": {
+            "prefix": "wc_ms_protect_download_rewite_rules",
+            "body": "wc_ms_protect_download_rewite_rules( ${1:rewrite} )"
+        },
+        "Function: wc_get_core_supported_themes()": {
+            "prefix": "wc_get_core_supported_themes",
+            "body": "wc_get_core_supported_themes()"
+        },
+        "Function: wc_deliver_webhook_async()": {
+            "prefix": "wc_deliver_webhook_async",
+            "body": "wc_deliver_webhook_async( ${1:webhook_id}, ${2:arg} )"
+        },
+        "Function: wc_format_country_state_string()": {
+            "prefix": "wc_format_country_state_string",
+            "body": "wc_format_country_state_string( ${1:country_string} )"
+        },
+        "Function: wc_get_base_location()": {
+            "prefix": "wc_get_base_location",
+            "body": "wc_get_base_location()"
+        },
+        "Function: wc_get_customer_default_location()": {
+            "prefix": "wc_get_customer_default_location",
+            "body": "wc_get_customer_default_location()"
+        },
+        "Function: wc_get_user_agent()": {
+            "prefix": "wc_get_user_agent",
+            "body": "wc_get_user_agent()"
+        },
+        "Function: hash_equals()": {
+            "prefix": "hash_equals",
+            "body": "hash_equals( ${1:a}, ${2:b} )"
+        },
+        "Function: wc_rand_hash()": {
+            "prefix": "wc_rand_hash",
+            "body": "wc_rand_hash()"
+        },
+        "Function: wc_api_hash()": {
+            "prefix": "wc_api_hash",
+            "body": "wc_api_hash( ${1:data} )"
+        },
+        "Function: wc_array_cartesian()": {
+            "prefix": "wc_array_cartesian",
+            "body": "wc_array_cartesian( ${1:input} )"
+        },
+        "Function: wc_transaction_query()": {
+            "prefix": "wc_transaction_query",
+            "body": "wc_transaction_query( ${1:type} )"
+        },
+        "Function: wc_get_cart_url()": {
+            "prefix": "wc_get_cart_url",
+            "body": "wc_get_cart_url()"
+        },
+        "Function: wc_get_checkout_url()": {
+            "prefix": "wc_get_checkout_url",
+            "body": "wc_get_checkout_url()"
+        },
+        "Function: woocommerce_register_shipping_method()": {
+            "prefix": "woocommerce_register_shipping_method",
+            "body": "woocommerce_register_shipping_method( ${1:shipping_method} )"
+        },
+        "Function: wc_get_shipping_zone()": {
+            "prefix": "wc_get_shipping_zone",
+            "body": "wc_get_shipping_zone( ${1:package} )"
+        },
+        "Function: wc_get_credit_card_type_label()": {
+            "prefix": "wc_get_credit_card_type_label",
+            "body": "wc_get_credit_card_type_label( ${1:type} )"
+        },
+        "Function: wc_back_link()": {
+            "prefix": "wc_back_link",
+            "body": "wc_back_link( ${1:label}, ${2:url} )"
+        },
+        "Function: wc_help_tip()": {
+            "prefix": "wc_help_tip",
+            "body": "wc_help_tip( ${1:tip}${2:, ${3:allow_html}} )"
+        },
+        "Function: wc_get_wildcard_postcodes()": {
+            "prefix": "wc_get_wildcard_postcodes",
+            "body": "wc_get_wildcard_postcodes( ${1:postcode}${2:, ${3:country}} )"
+        },
+        "Function: wc_postcode_location_matcher()": {
+            "prefix": "wc_postcode_location_matcher",
+            "body": "wc_postcode_location_matcher( ${1:postcode}, ${2:objects}, ${3:object_id_key}, ${4:object_compare_key}${5:, ${6:country}} )"
+        },
+        "Function: wc_get_shipping_method_count()": {
+            "prefix": "wc_get_shipping_method_count",
+            "body": "wc_get_shipping_method_count( ${1:include_legacy} )"
+        },
+        "Function: wc_set_time_limit()": {
+            "prefix": "wc_set_time_limit",
+            "body": "wc_set_time_limit( ${1:limit} )"
+        },
+        "Function: wc_nocache_headers()": {
+            "prefix": "wc_nocache_headers",
+            "body": "wc_nocache_headers()"
+        },
+        "Function: wc_product_attribute_uasort_comparison()": {
+            "prefix": "wc_product_attribute_uasort_comparison",
+            "body": "wc_product_attribute_uasort_comparison( ${1:a}, ${2:b} )"
+        },
+        "Function: wc_shipping_zone_method_order_uasort_comparison()": {
+            "prefix": "wc_shipping_zone_method_order_uasort_comparison",
+            "body": "wc_shipping_zone_method_order_uasort_comparison( ${1:a}, ${2:b} )"
+        },
+        "Function: wc_get_tax_rounding_mode()": {
+            "prefix": "wc_get_tax_rounding_mode",
+            "body": "wc_get_tax_rounding_mode()"
+        },
+        "Function: wc_get_rounding_precision()": {
+            "prefix": "wc_get_rounding_precision",
+            "body": "wc_get_rounding_precision()"
+        },
+        "Function: wc_add_number_precision()": {
+            "prefix": "wc_add_number_precision",
+            "body": "wc_add_number_precision( ${1:value}${2:, ${3:round}} )"
+        },
+        "Function: wc_remove_number_precision()": {
+            "prefix": "wc_remove_number_precision",
+            "body": "wc_remove_number_precision( ${1:value} )"
+        },
+        "Function: wc_add_number_precision_deep()": {
+            "prefix": "wc_add_number_precision_deep",
+            "body": "wc_add_number_precision_deep( ${1:value}${2:, ${3:round}} )"
+        },
+        "Function: wc_remove_number_precision_deep()": {
+            "prefix": "wc_remove_number_precision_deep",
+            "body": "wc_remove_number_precision_deep( ${1:value} )"
+        },
+        "Function: wc_get_logger()": {
+            "prefix": "wc_get_logger",
+            "body": "wc_get_logger()"
+        },
+        "Function: wc_print_r()": {
+            "prefix": "wc_print_r",
+            "body": "wc_print_r( ${1:expression}${2:, ${3:return}} )"
+        },
+        "Function: wc_register_default_log_handler()": {
+            "prefix": "wc_register_default_log_handler",
+            "body": "wc_register_default_log_handler( ${1:handlers} )"
+        },
+        "Function: wc_maybe_store_user_agent()": {
+            "prefix": "wc_maybe_store_user_agent",
+            "body": "wc_maybe_store_user_agent( ${1:user_login}, ${2:user} )"
+        },
+        "Function: wc_list_pluck()": {
+            "prefix": "wc_list_pluck",
+            "body": "wc_list_pluck( ${1:list}, ${2:callback_or_field}${3:, ${4:index_key}} )"
+        },
+        "Function: wc_get_permalink_structure()": {
+            "prefix": "wc_get_permalink_structure",
+            "body": "wc_get_permalink_structure()"
+        },
+        "Function: wc_switch_to_site_locale()": {
+            "prefix": "wc_switch_to_site_locale",
+            "body": "wc_switch_to_site_locale()"
+        },
+        "Function: wc_restore_locale()": {
+            "prefix": "wc_restore_locale",
+            "body": "wc_restore_locale()"
+        },
+        "Function: wc_make_phone_clickable()": {
+            "prefix": "wc_make_phone_clickable",
+            "body": "wc_make_phone_clickable( ${1:phone} )"
+        },
+        "Function: wc_get_post_data_by_key()": {
+            "prefix": "wc_get_post_data_by_key",
+            "body": "wc_get_post_data_by_key( ${1:key}${2:, ${3:default}} )"
+        },
+        "Function: wc_get_var()": {
+            "prefix": "wc_get_var",
+            "body": "wc_get_var( ${1:&var}${2:, ${3:default}} )"
+        },
+        "Function: wc_enable_wc_plugin_headers()": {
+            "prefix": "wc_enable_wc_plugin_headers",
+            "body": "wc_enable_wc_plugin_headers( ${1:headers} )"
+        },
+        "Function: wc_prevent_dangerous_auto_updates()": {
+            "prefix": "wc_prevent_dangerous_auto_updates",
+            "body": "wc_prevent_dangerous_auto_updates( ${1:should_update}, ${2:plugin} )"
+        },
+        "Function: wc_delete_expired_transients()": {
+            "prefix": "wc_delete_expired_transients",
+            "body": "wc_delete_expired_transients()"
+        },
+        "Function: wc_get_relative_url()": {
+            "prefix": "wc_get_relative_url",
+            "body": "wc_get_relative_url( ${1:url} )"
+        },
+        "Function: wc_is_external_resource()": {
+            "prefix": "wc_is_external_resource",
+            "body": "wc_is_external_resource( ${1:url} )"
+        },
+        "Function: wc_get_coupon_types()": {
+            "prefix": "wc_get_coupon_types",
+            "body": "wc_get_coupon_types()"
+        },
+        "Function: wc_get_coupon_type()": {
+            "prefix": "wc_get_coupon_type",
+            "body": "wc_get_coupon_type( ${1:type} )"
+        },
+        "Function: wc_get_product_coupon_types()": {
+            "prefix": "wc_get_product_coupon_types",
+            "body": "wc_get_product_coupon_types()"
+        },
+        "Function: wc_get_cart_coupon_types()": {
+            "prefix": "wc_get_cart_coupon_types",
+            "body": "wc_get_cart_coupon_types()"
+        },
+        "Function: wc_coupons_enabled()": {
+            "prefix": "wc_coupons_enabled",
+            "body": "wc_coupons_enabled()"
+        },
+        "Function: wc_get_coupon_code_by_id()": {
+            "prefix": "wc_get_coupon_code_by_id",
+            "body": "wc_get_coupon_code_by_id( ${1:id} )"
+        },
+        "Function: wc_get_coupon_id_by_code()": {
+            "prefix": "wc_get_coupon_id_by_code",
+            "body": "wc_get_coupon_id_by_code( ${1:code}${2:, ${3:exclude}} )"
+        },
+        "Function: wc_string_to_bool()": {
+            "prefix": "wc_string_to_bool",
+            "body": "wc_string_to_bool( ${1:string} )"
+        },
+        "Function: wc_bool_to_string()": {
+            "prefix": "wc_bool_to_string",
+            "body": "wc_bool_to_string( ${1:bool} )"
+        },
+        "Function: wc_string_to_array()": {
+            "prefix": "wc_string_to_array",
+            "body": "wc_string_to_array( ${1:string}${2:, ${3:delimiter}} )"
+        },
+        "Function: wc_sanitize_taxonomy_name()": {
+            "prefix": "wc_sanitize_taxonomy_name",
+            "body": "wc_sanitize_taxonomy_name( ${1:taxonomy} )"
+        },
+        "Function: wc_sanitize_permalink()": {
+            "prefix": "wc_sanitize_permalink",
+            "body": "wc_sanitize_permalink( ${1:value} )"
+        },
+        "Function: wc_get_filename_from_url()": {
+            "prefix": "wc_get_filename_from_url",
+            "body": "wc_get_filename_from_url( ${1:file_url} )"
+        },
+        "Function: wc_get_dimension()": {
+            "prefix": "wc_get_dimension",
+            "body": "wc_get_dimension( ${1:dimension}, ${2:to_unit}${3:, ${4:from_unit}} )"
+        },
+        "Function: wc_get_weight()": {
+            "prefix": "wc_get_weight",
+            "body": "wc_get_weight( ${1:weight}, ${2:to_unit}${3:, ${4:from_unit}} )"
+        },
+        "Function: wc_trim_zeros()": {
+            "prefix": "wc_trim_zeros",
+            "body": "wc_trim_zeros( ${1:price} )"
+        },
+        "Function: wc_round_tax_total()": {
+            "prefix": "wc_round_tax_total",
+            "body": "wc_round_tax_total( ${1:value}${2:, ${3:precision}} )"
+        },
+        "Function: wc_format_refund_total()": {
+            "prefix": "wc_format_refund_total",
+            "body": "wc_format_refund_total( ${1:amount} )"
+        },
+        "Function: wc_format_decimal()": {
+            "prefix": "wc_format_decimal",
+            "body": "wc_format_decimal( ${1:number}${2:, ${3:dp}${4:, ${5:trim_zeros}}} )"
+        },
+        "Function: wc_float_to_string()": {
+            "prefix": "wc_float_to_string",
+            "body": "wc_float_to_string( ${1:float} )"
+        },
+        "Function: wc_format_localized_price()": {
+            "prefix": "wc_format_localized_price",
+            "body": "wc_format_localized_price( ${1:value} )"
+        },
+        "Function: wc_format_localized_decimal()": {
+            "prefix": "wc_format_localized_decimal",
+            "body": "wc_format_localized_decimal( ${1:value} )"
+        },
+        "Function: wc_format_coupon_code()": {
+            "prefix": "wc_format_coupon_code",
+            "body": "wc_format_coupon_code( ${1:value} )"
+        },
+        "Function: wc_clean()": {
+            "prefix": "wc_clean",
+            "body": "wc_clean( ${1:var} )"
+        },
+        "Function: wc_sanitize_textarea()": {
+            "prefix": "wc_sanitize_textarea",
+            "body": "wc_sanitize_textarea( ${1:var} )"
+        },
+        "Function: wc_sanitize_tooltip()": {
+            "prefix": "wc_sanitize_tooltip",
+            "body": "wc_sanitize_tooltip( ${1:var} )"
+        },
+        "Function: wc_array_overlay()": {
+            "prefix": "wc_array_overlay",
+            "body": "wc_array_overlay( ${1:a1}, ${2:a2} )"
+        },
+        "Function: wc_stock_amount()": {
+            "prefix": "wc_stock_amount",
+            "body": "wc_stock_amount( ${1:amount} )"
+        },
+        "Function: get_woocommerce_price_format()": {
+            "prefix": "get_woocommerce_price_format",
+            "body": "get_woocommerce_price_format()"
+        },
+        "Function: wc_get_price_thousand_separator()": {
+            "prefix": "wc_get_price_thousand_separator",
+            "body": "wc_get_price_thousand_separator()"
+        },
+        "Function: wc_get_price_decimal_separator()": {
+            "prefix": "wc_get_price_decimal_separator",
+            "body": "wc_get_price_decimal_separator()"
+        },
+        "Function: wc_get_price_decimals()": {
+            "prefix": "wc_get_price_decimals",
+            "body": "wc_get_price_decimals()"
+        },
+        "Function: wc_price()": {
+            "prefix": "wc_price",
+            "body": "wc_price( ${1:price}${2:, ${3:args}} )"
+        },
+        "Function: wc_let_to_num()": {
+            "prefix": "wc_let_to_num",
+            "body": "wc_let_to_num( ${1:size} )"
+        },
+        "Function: wc_date_format()": {
+            "prefix": "wc_date_format",
+            "body": "wc_date_format()"
+        },
+        "Function: wc_time_format()": {
+            "prefix": "wc_time_format",
+            "body": "wc_time_format()"
+        },
+        "Function: wc_string_to_timestamp()": {
+            "prefix": "wc_string_to_timestamp",
+            "body": "wc_string_to_timestamp( ${1:time_string}${2:, ${3:from_timestamp}} )"
+        },
+        "Function: wc_string_to_datetime()": {
+            "prefix": "wc_string_to_datetime",
+            "body": "wc_string_to_datetime( ${1:time_string} )"
+        },
+        "Function: wc_timezone_string()": {
+            "prefix": "wc_timezone_string",
+            "body": "wc_timezone_string()"
+        },
+        "Function: wc_timezone_offset()": {
+            "prefix": "wc_timezone_offset",
+            "body": "wc_timezone_offset()"
+        },
+        "Function: wc_flatten_meta_callback()": {
+            "prefix": "wc_flatten_meta_callback",
+            "body": "wc_flatten_meta_callback( ${1:value} )"
+        },
+        "Function: wc_rgb_from_hex()": {
+            "prefix": "wc_rgb_from_hex",
+            "body": "wc_rgb_from_hex( ${1:color} )"
+        },
+        "Function: wc_hex_darker()": {
+            "prefix": "wc_hex_darker",
+            "body": "wc_hex_darker( ${1:color}${2:, ${3:factor}} )"
+        },
+        "Function: wc_hex_lighter()": {
+            "prefix": "wc_hex_lighter",
+            "body": "wc_hex_lighter( ${1:color}${2:, ${3:factor}} )"
+        },
+        "Function: wc_light_or_dark()": {
+            "prefix": "wc_light_or_dark",
+            "body": "wc_light_or_dark( ${1:color}${2:, ${3:dark}${4:, ${5:light}}} )"
+        },
+        "Function: wc_format_hex()": {
+            "prefix": "wc_format_hex",
+            "body": "wc_format_hex( ${1:hex} )"
+        },
+        "Function: wc_format_postcode()": {
+            "prefix": "wc_format_postcode",
+            "body": "wc_format_postcode( ${1:postcode}, ${2:country} )"
+        },
+        "Function: wc_normalize_postcode()": {
+            "prefix": "wc_normalize_postcode",
+            "body": "wc_normalize_postcode( ${1:postcode} )"
+        },
+        "Function: wc_strtoupper()": {
+            "prefix": "wc_strtoupper",
+            "body": "wc_strtoupper( ${1:string} )"
+        },
+        "Function: wc_format_phone_number()": {
+            "prefix": "wc_format_phone_number",
+            "body": "wc_format_phone_number( ${1:tel} )"
+        },
+        "Function: wc_strtolower()": {
+            "prefix": "wc_strtolower",
+            "body": "wc_strtolower( ${1:string} )"
+        },
+        "Function: wc_trim_string()": {
+            "prefix": "wc_trim_string",
+            "body": "wc_trim_string( ${1:string}${2:, ${3:chars}${4:, ${5:suffix}}} )"
+        },
+        "Function: wc_format_content()": {
+            "prefix": "wc_format_content",
+            "body": "wc_format_content( ${1:raw_string} )"
+        },
+        "Function: wc_format_product_short_description()": {
+            "prefix": "wc_format_product_short_description",
+            "body": "wc_format_product_short_description( ${1:content} )"
+        },
+        "Function: wc_format_option_price_separators()": {
+            "prefix": "wc_format_option_price_separators",
+            "body": "wc_format_option_price_separators( ${1:value}, ${2:option}, ${3:raw_value} )"
+        },
+        "Function: wc_format_option_price_num_decimals()": {
+            "prefix": "wc_format_option_price_num_decimals",
+            "body": "wc_format_option_price_num_decimals( ${1:value}, ${2:option}, ${3:raw_value} )"
+        },
+        "Function: wc_format_option_hold_stock_minutes()": {
+            "prefix": "wc_format_option_hold_stock_minutes",
+            "body": "wc_format_option_hold_stock_minutes( ${1:value}, ${2:option}, ${3:raw_value} )"
+        },
+        "Function: wc_sanitize_term_text_based()": {
+            "prefix": "wc_sanitize_term_text_based",
+            "body": "wc_sanitize_term_text_based( ${1:term} )"
+        },
+        "Function: wc_make_numeric_postcode()": {
+            "prefix": "wc_make_numeric_postcode",
+            "body": "wc_make_numeric_postcode( ${1:postcode} )"
+        },
+        "Function: wc_format_stock_for_display()": {
+            "prefix": "wc_format_stock_for_display",
+            "body": "wc_format_stock_for_display( ${1:product} )"
+        },
+        "Function: wc_format_stock_quantity_for_display()": {
+            "prefix": "wc_format_stock_quantity_for_display",
+            "body": "wc_format_stock_quantity_for_display( ${1:stock_quantity}, ${2:product} )"
+        },
+        "Function: wc_format_sale_price()": {
+            "prefix": "wc_format_sale_price",
+            "body": "wc_format_sale_price( ${1:regular_price}, ${2:sale_price} )"
+        },
+        "Function: wc_format_price_range()": {
+            "prefix": "wc_format_price_range",
+            "body": "wc_format_price_range( ${1:from}, ${2:to} )"
+        },
+        "Function: wc_format_weight()": {
+            "prefix": "wc_format_weight",
+            "body": "wc_format_weight( ${1:weight} )"
+        },
+        "Function: wc_format_dimensions()": {
+            "prefix": "wc_format_dimensions",
+            "body": "wc_format_dimensions( ${1:dimensions} )"
+        },
+        "Function: wc_format_datetime()": {
+            "prefix": "wc_format_datetime",
+            "body": "wc_format_datetime( ${1:date}${2:, ${3:format}} )"
+        },
+        "Function: wc_do_oembeds()": {
+            "prefix": "wc_do_oembeds",
+            "body": "wc_do_oembeds( ${1:content} )"
+        },
+        "Function: wc_get_string_before_colon()": {
+            "prefix": "wc_get_string_before_colon",
+            "body": "wc_get_string_before_colon( ${1:string} )"
+        },
+        "Function: wc_array_merge_recursive_numeric()": {
+            "prefix": "wc_array_merge_recursive_numeric",
+            "body": "wc_array_merge_recursive_numeric()"
+        },
+        "Function: wc_notice_count()": {
+            "prefix": "wc_notice_count",
+            "body": "wc_notice_count( ${1:notice_type} )"
+        },
+        "Function: wc_has_notice()": {
+            "prefix": "wc_has_notice",
+            "body": "wc_has_notice( ${1:message}${2:, ${3:notice_type}} )"
+        },
+        "Function: wc_add_notice()": {
+            "prefix": "wc_add_notice",
+            "body": "wc_add_notice( ${1:message}${2:, ${3:notice_type}} )"
+        },
+        "Function: wc_set_notices()": {
+            "prefix": "wc_set_notices",
+            "body": "wc_set_notices( ${1:notices} )"
+        },
+        "Function: wc_clear_notices()": {
+            "prefix": "wc_clear_notices",
+            "body": "wc_clear_notices()"
+        },
+        "Function: wc_print_notices()": {
+            "prefix": "wc_print_notices",
+            "body": "wc_print_notices()"
+        },
+        "Function: wc_print_notice()": {
+            "prefix": "wc_print_notice",
+            "body": "wc_print_notice( ${1:message}${2:, ${3:notice_type}} )"
+        },
+        "Function: wc_get_notices()": {
+            "prefix": "wc_get_notices",
+            "body": "wc_get_notices( ${1:notice_type} )"
+        },
+        "Function: wc_add_wp_error_notices()": {
+            "prefix": "wc_add_wp_error_notices",
+            "body": "wc_add_wp_error_notices( ${1:errors} )"
+        },
+        "Function: wc_get_orders()": {
+            "prefix": "wc_get_orders",
+            "body": "wc_get_orders( ${1:args} )"
+        },
+        "Function: wc_get_order()": {
+            "prefix": "wc_get_order",
+            "body": "wc_get_order( ${1:the_order} )"
+        },
+        "Function: wc_get_order_statuses()": {
+            "prefix": "wc_get_order_statuses",
+            "body": "wc_get_order_statuses()"
+        },
+        "Function: wc_is_order_status()": {
+            "prefix": "wc_is_order_status",
+            "body": "wc_is_order_status( ${1:maybe_status} )"
+        },
+        "Function: wc_get_is_paid_statuses()": {
+            "prefix": "wc_get_is_paid_statuses",
+            "body": "wc_get_is_paid_statuses()"
+        },
+        "Function: wc_get_order_status_name()": {
+            "prefix": "wc_get_order_status_name",
+            "body": "wc_get_order_status_name( ${1:status} )"
+        },
+        "Function: wc_get_order_id_by_order_key()": {
+            "prefix": "wc_get_order_id_by_order_key",
+            "body": "wc_get_order_id_by_order_key( ${1:order_key} )"
+        },
+        "Function: wc_get_order_types()": {
+            "prefix": "wc_get_order_types",
+            "body": "wc_get_order_types( ${1:for} )"
+        },
+        "Function: wc_get_order_type()": {
+            "prefix": "wc_get_order_type",
+            "body": "wc_get_order_type( ${1:type} )"
+        },
+        "Function: wc_register_order_type()": {
+            "prefix": "wc_register_order_type",
+            "body": "wc_register_order_type( ${1:type}${2:, ${3:args}} )"
+        },
+        "Function: wc_processing_order_count()": {
+            "prefix": "wc_processing_order_count",
+            "body": "wc_processing_order_count()"
+        },
+        "Function: wc_orders_count()": {
+            "prefix": "wc_orders_count",
+            "body": "wc_orders_count( ${1:status} )"
+        },
+        "Function: wc_downloadable_file_permission()": {
+            "prefix": "wc_downloadable_file_permission",
+            "body": "wc_downloadable_file_permission( ${1:download_id}, ${2:product}, ${3:order}${4:, ${5:qty}} )"
+        },
+        "Function: wc_downloadable_product_permissions()": {
+            "prefix": "wc_downloadable_product_permissions",
+            "body": "wc_downloadable_product_permissions( ${1:order_id}${2:, ${3:force}} )"
+        },
+        "Function: wc_delete_shop_order_transients()": {
+            "prefix": "wc_delete_shop_order_transients",
+            "body": "wc_delete_shop_order_transients( ${1:order} )"
+        },
+        "Function: wc_ship_to_billing_address_only()": {
+            "prefix": "wc_ship_to_billing_address_only",
+            "body": "wc_ship_to_billing_address_only()"
+        },
+        "Function: wc_create_refund()": {
+            "prefix": "wc_create_refund",
+            "body": "wc_create_refund( ${1:args} )"
+        },
+        "Function: wc_refund_payment()": {
+            "prefix": "wc_refund_payment",
+            "body": "wc_refund_payment( ${1:order}, ${2:amount}${3:, ${4:reason}} )"
+        },
+        "Function: wc_restock_refunded_items()": {
+            "prefix": "wc_restock_refunded_items",
+            "body": "wc_restock_refunded_items( ${1:order}, ${2:refunded_line_items} )"
+        },
+        "Function: wc_get_tax_class_by_tax_id()": {
+            "prefix": "wc_get_tax_class_by_tax_id",
+            "body": "wc_get_tax_class_by_tax_id( ${1:tax_id} )"
+        },
+        "Function: wc_get_payment_gateway_by_order()": {
+            "prefix": "wc_get_payment_gateway_by_order",
+            "body": "wc_get_payment_gateway_by_order( ${1:order} )"
+        },
+        "Function: wc_order_fully_refunded()": {
+            "prefix": "wc_order_fully_refunded",
+            "body": "wc_order_fully_refunded( ${1:order_id} )"
+        },
+        "Function: wc_order_search()": {
+            "prefix": "wc_order_search",
+            "body": "wc_order_search( ${1:term} )"
+        },
+        "Function: wc_update_total_sales_counts()": {
+            "prefix": "wc_update_total_sales_counts",
+            "body": "wc_update_total_sales_counts( ${1:order_id} )"
+        },
+        "Function: wc_update_coupon_usage_counts()": {
+            "prefix": "wc_update_coupon_usage_counts",
+            "body": "wc_update_coupon_usage_counts( ${1:order_id} )"
+        },
+        "Function: wc_cancel_unpaid_orders()": {
+            "prefix": "wc_cancel_unpaid_orders",
+            "body": "wc_cancel_unpaid_orders()"
+        },
+        "Function: wc_sanitize_order_id()": {
+            "prefix": "wc_sanitize_order_id",
+            "body": "wc_sanitize_order_id( ${1:order_id} )"
+        },
+        "Function: wc_get_order_note()": {
+            "prefix": "wc_get_order_note",
+            "body": "wc_get_order_note( ${1:data} )"
+        },
+        "Function: wc_get_order_notes()": {
+            "prefix": "wc_get_order_notes",
+            "body": "wc_get_order_notes( ${1:args} )"
+        },
+        "Function: wc_create_order_note()": {
+            "prefix": "wc_create_order_note",
+            "body": "wc_create_order_note( ${1:order_id}, ${2:note}${3:, ${4:is_customer_note}${5:, ${6:added_by_user}}} )"
+        },
+        "Function: wc_delete_order_note()": {
+            "prefix": "wc_delete_order_note",
+            "body": "wc_delete_order_note( ${1:note_id} )"
+        },
+        "Function: wc_add_order_item()": {
+            "prefix": "wc_add_order_item",
+            "body": "wc_add_order_item( ${1:order_id}, ${2:item_array} )"
+        },
+        "Function: wc_update_order_item()": {
+            "prefix": "wc_update_order_item",
+            "body": "wc_update_order_item( ${1:item_id}, ${2:args} )"
+        },
+        "Function: wc_delete_order_item()": {
+            "prefix": "wc_delete_order_item",
+            "body": "wc_delete_order_item( ${1:item_id} )"
+        },
+        "Function: wc_update_order_item_meta()": {
+            "prefix": "wc_update_order_item_meta",
+            "body": "wc_update_order_item_meta( ${1:item_id}, ${2:meta_key}, ${3:meta_value}${4:, ${5:prev_value}} )"
+        },
+        "Function: wc_add_order_item_meta()": {
+            "prefix": "wc_add_order_item_meta",
+            "body": "wc_add_order_item_meta( ${1:item_id}, ${2:meta_key}, ${3:meta_value}${4:, ${5:unique}} )"
+        },
+        "Function: wc_delete_order_item_meta()": {
+            "prefix": "wc_delete_order_item_meta",
+            "body": "wc_delete_order_item_meta( ${1:item_id}, ${2:meta_key}${3:, ${4:meta_value}${5:, ${6:delete_all}}} )"
+        },
+        "Function: wc_get_order_item_meta()": {
+            "prefix": "wc_get_order_item_meta",
+            "body": "wc_get_order_item_meta( ${1:item_id}, ${2:key}${3:, ${4:single}} )"
+        },
+        "Function: wc_get_order_id_by_order_item_id()": {
+            "prefix": "wc_get_order_id_by_order_item_id",
+            "body": "wc_get_order_id_by_order_item_id( ${1:item_id} )"
+        },
+        "Function: wc_page_endpoint_title()": {
+            "prefix": "wc_page_endpoint_title",
+            "body": "wc_page_endpoint_title( ${1:title} )"
+        },
+        "Function: wc_get_page_id()": {
+            "prefix": "wc_get_page_id",
+            "body": "wc_get_page_id( ${1:page} )"
+        },
+        "Function: wc_get_page_permalink()": {
+            "prefix": "wc_get_page_permalink",
+            "body": "wc_get_page_permalink( ${1:page} )"
+        },
+        "Function: wc_get_endpoint_url()": {
+            "prefix": "wc_get_endpoint_url",
+            "body": "wc_get_endpoint_url( ${1:endpoint}${2:, ${3:value}${4:, ${5:permalink}}} )"
+        },
+        "Function: wc_nav_menu_items()": {
+            "prefix": "wc_nav_menu_items",
+            "body": "wc_nav_menu_items( ${1:items} )"
+        },
+        "Function: wc_nav_menu_item_classes()": {
+            "prefix": "wc_nav_menu_item_classes",
+            "body": "wc_nav_menu_item_classes( ${1:menu_items} )"
+        },
+        "Function: wc_list_pages()": {
+            "prefix": "wc_list_pages",
+            "body": "wc_list_pages( ${1:pages} )"
+        },
+        "Function: wc_get_products()": {
+            "prefix": "wc_get_products",
+            "body": "wc_get_products( ${1:args} )"
+        },
+        "Function: wc_get_product()": {
+            "prefix": "wc_get_product",
+            "body": "wc_get_product( ${1:${2:the_product}${3:, ${4:deprecated}}} )"
+        },
+        "Function: wc_product_sku_enabled()": {
+            "prefix": "wc_product_sku_enabled",
+            "body": "wc_product_sku_enabled()"
+        },
+        "Function: wc_product_weight_enabled()": {
+            "prefix": "wc_product_weight_enabled",
+            "body": "wc_product_weight_enabled()"
+        },
+        "Function: wc_product_dimensions_enabled()": {
+            "prefix": "wc_product_dimensions_enabled",
+            "body": "wc_product_dimensions_enabled()"
+        },
+        "Function: wc_delete_product_transients()": {
+            "prefix": "wc_delete_product_transients",
+            "body": "wc_delete_product_transients( ${1:post_id} )"
+        },
+        "Function: wc_get_product_ids_on_sale()": {
+            "prefix": "wc_get_product_ids_on_sale",
+            "body": "wc_get_product_ids_on_sale()"
+        },
+        "Function: wc_get_featured_product_ids()": {
+            "prefix": "wc_get_featured_product_ids",
+            "body": "wc_get_featured_product_ids()"
+        },
+        "Function: wc_product_post_type_link()": {
+            "prefix": "wc_product_post_type_link",
+            "body": "wc_product_post_type_link( ${1:permalink}, ${2:post} )"
+        },
+        "Function: wc_placeholder_img_src()": {
+            "prefix": "wc_placeholder_img_src",
+            "body": "wc_placeholder_img_src()"
+        },
+        "Function: wc_placeholder_img()": {
+            "prefix": "wc_placeholder_img",
+            "body": "wc_placeholder_img( ${1:size} )"
+        },
+        "Function: wc_get_formatted_variation()": {
+            "prefix": "wc_get_formatted_variation",
+            "body": "wc_get_formatted_variation( ${1:variation}${2:, ${3:flat}${4:, ${5:include_names}${6:, ${7:skip_attributes_in_name}}}} )"
+        },
+        "Function: wc_scheduled_sales()": {
+            "prefix": "wc_scheduled_sales",
+            "body": "wc_scheduled_sales()"
+        },
+        "Function: wc_get_attachment_image_attributes()": {
+            "prefix": "wc_get_attachment_image_attributes",
+            "body": "wc_get_attachment_image_attributes( ${1:attr} )"
+        },
+        "Function: wc_prepare_attachment_for_js()": {
+            "prefix": "wc_prepare_attachment_for_js",
+            "body": "wc_prepare_attachment_for_js( ${1:response} )"
+        },
+        "Function: wc_track_product_view()": {
+            "prefix": "wc_track_product_view",
+            "body": "wc_track_product_view()"
+        },
+        "Function: wc_get_product_types()": {
+            "prefix": "wc_get_product_types",
+            "body": "wc_get_product_types()"
+        },
+        "Function: wc_product_has_unique_sku()": {
+            "prefix": "wc_product_has_unique_sku",
+            "body": "wc_product_has_unique_sku( ${1:product_id}, ${2:sku} )"
+        },
+        "Function: wc_product_force_unique_sku()": {
+            "prefix": "wc_product_force_unique_sku",
+            "body": "wc_product_force_unique_sku( ${1:product_id} )"
+        },
+        "Function: wc_product_generate_unique_sku()": {
+            "prefix": "wc_product_generate_unique_sku",
+            "body": "wc_product_generate_unique_sku( ${1:product_id}, ${2:sku}${3:, ${4:index}} )"
+        },
+        "Function: wc_get_product_id_by_sku()": {
+            "prefix": "wc_get_product_id_by_sku",
+            "body": "wc_get_product_id_by_sku( ${1:sku} )"
+        },
+        "Function: wc_get_product_variation_attributes()": {
+            "prefix": "wc_get_product_variation_attributes",
+            "body": "wc_get_product_variation_attributes( ${1:variation_id} )"
+        },
+        "Function: wc_get_product_cat_ids()": {
+            "prefix": "wc_get_product_cat_ids",
+            "body": "wc_get_product_cat_ids( ${1:product_id} )"
+        },
+        "Function: wc_get_product_attachment_props()": {
+            "prefix": "wc_get_product_attachment_props",
+            "body": "wc_get_product_attachment_props( ${1:${2:attachment_id}${3:, ${4:product}}} )"
+        },
+        "Function: wc_get_product_visibility_options()": {
+            "prefix": "wc_get_product_visibility_options",
+            "body": "wc_get_product_visibility_options()"
+        },
+        "Function: wc_get_min_max_price_meta_query()": {
+            "prefix": "wc_get_min_max_price_meta_query",
+            "body": "wc_get_min_max_price_meta_query( ${1:args} )"
+        },
+        "Function: wc_get_product_tax_class_options()": {
+            "prefix": "wc_get_product_tax_class_options",
+            "body": "wc_get_product_tax_class_options()"
+        },
+        "Function: wc_get_product_stock_status_options()": {
+            "prefix": "wc_get_product_stock_status_options",
+            "body": "wc_get_product_stock_status_options()"
+        },
+        "Function: wc_get_product_backorder_options()": {
+            "prefix": "wc_get_product_backorder_options",
+            "body": "wc_get_product_backorder_options()"
+        },
+        "Function: wc_get_related_products()": {
+            "prefix": "wc_get_related_products",
+            "body": "wc_get_related_products( ${1:product_id}${2:, ${3:limit}${4:, ${5:exclude_ids}}} )"
+        },
+        "Function: wc_get_product_term_ids()": {
+            "prefix": "wc_get_product_term_ids",
+            "body": "wc_get_product_term_ids( ${1:product_id}, ${2:taxonomy} )"
+        },
+        "Function: wc_get_price_including_tax()": {
+            "prefix": "wc_get_price_including_tax",
+            "body": "wc_get_price_including_tax( ${1:product}${2:, ${3:args}} )"
+        },
+        "Function: wc_get_price_excluding_tax()": {
+            "prefix": "wc_get_price_excluding_tax",
+            "body": "wc_get_price_excluding_tax( ${1:product}${2:, ${3:args}} )"
+        },
+        "Function: wc_get_price_to_display()": {
+            "prefix": "wc_get_price_to_display",
+            "body": "wc_get_price_to_display( ${1:product}${2:, ${3:args}} )"
+        },
+        "Function: wc_get_product_category_list()": {
+            "prefix": "wc_get_product_category_list",
+            "body": "wc_get_product_category_list( ${1:product_id}${2:, ${3:sep}${4:, ${5:before}${6:, ${7:after}}}} )"
+        },
+        "Function: wc_get_product_tag_list()": {
+            "prefix": "wc_get_product_tag_list",
+            "body": "wc_get_product_tag_list( ${1:product_id}${2:, ${3:sep}${4:, ${5:before}${6:, ${7:after}}}} )"
+        },
+        "Function: wc_products_array_filter_visible()": {
+            "prefix": "wc_products_array_filter_visible",
+            "body": "wc_products_array_filter_visible( ${1:product} )"
+        },
+        "Function: wc_products_array_filter_visible_grouped()": {
+            "prefix": "wc_products_array_filter_visible_grouped",
+            "body": "wc_products_array_filter_visible_grouped( ${1:product} )"
+        },
+        "Function: wc_products_array_filter_editable()": {
+            "prefix": "wc_products_array_filter_editable",
+            "body": "wc_products_array_filter_editable( ${1:product} )"
+        },
+        "Function: wc_products_array_orderby()": {
+            "prefix": "wc_products_array_orderby",
+            "body": "wc_products_array_orderby( ${1:products}${2:, ${3:orderby}${4:, ${5:order}}} )"
+        },
+        "Function: wc_products_array_orderby_title()": {
+            "prefix": "wc_products_array_orderby_title",
+            "body": "wc_products_array_orderby_title( ${1:a}, ${2:b} )"
+        },
+        "Function: wc_products_array_orderby_id()": {
+            "prefix": "wc_products_array_orderby_id",
+            "body": "wc_products_array_orderby_id( ${1:a}, ${2:b} )"
+        },
+        "Function: wc_products_array_orderby_date()": {
+            "prefix": "wc_products_array_orderby_date",
+            "body": "wc_products_array_orderby_date( ${1:a}, ${2:b} )"
+        },
+        "Function: wc_products_array_orderby_modified()": {
+            "prefix": "wc_products_array_orderby_modified",
+            "body": "wc_products_array_orderby_modified( ${1:a}, ${2:b} )"
+        },
+        "Function: wc_products_array_orderby_menu_order()": {
+            "prefix": "wc_products_array_orderby_menu_order",
+            "body": "wc_products_array_orderby_menu_order( ${1:a}, ${2:b} )"
+        },
+        "Function: wc_products_array_orderby_price()": {
+            "prefix": "wc_products_array_orderby_price",
+            "body": "wc_products_array_orderby_price( ${1:a}, ${2:b} )"
+        },
+        "Function: wc_deferred_product_sync()": {
+            "prefix": "wc_deferred_product_sync",
+            "body": "wc_deferred_product_sync( ${1:product_id} )"
+        },
+        "Function: wc_rest_prepare_date_response()": {
+            "prefix": "wc_rest_prepare_date_response",
+            "body": "wc_rest_prepare_date_response( ${1:date}${2:, ${3:utc}} )"
+        },
+        "Function: wc_rest_allowed_image_mime_types()": {
+            "prefix": "wc_rest_allowed_image_mime_types",
+            "body": "wc_rest_allowed_image_mime_types()"
+        },
+        "Function: wc_rest_upload_image_from_url()": {
+            "prefix": "wc_rest_upload_image_from_url",
+            "body": "wc_rest_upload_image_from_url( ${1:image_url} )"
+        },
+        "Function: wc_rest_set_uploaded_image_as_attachment()": {
+            "prefix": "wc_rest_set_uploaded_image_as_attachment",
+            "body": "wc_rest_set_uploaded_image_as_attachment( ${1:upload}${2:, ${3:id}} )"
+        },
+        "Function: wc_rest_validate_reports_request_arg()": {
+            "prefix": "wc_rest_validate_reports_request_arg",
+            "body": "wc_rest_validate_reports_request_arg( ${1:value}, ${2:request}, ${3:param} )"
+        },
+        "Function: wc_rest_urlencode_rfc3986()": {
+            "prefix": "wc_rest_urlencode_rfc3986",
+            "body": "wc_rest_urlencode_rfc3986( ${1:value} )"
+        },
+        "Function: wc_rest_check_post_permissions()": {
+            "prefix": "wc_rest_check_post_permissions",
+            "body": "wc_rest_check_post_permissions( ${1:post_type}${2:, ${3:context}${4:, ${5:object_id}}} )"
+        },
+        "Function: wc_rest_check_user_permissions()": {
+            "prefix": "wc_rest_check_user_permissions",
+            "body": "wc_rest_check_user_permissions( ${1:${2:context}${3:, ${4:object_id}}} )"
+        },
+        "Function: wc_rest_check_product_term_permissions()": {
+            "prefix": "wc_rest_check_product_term_permissions",
+            "body": "wc_rest_check_product_term_permissions( ${1:taxonomy}${2:, ${3:context}${4:, ${5:object_id}}} )"
+        },
+        "Function: wc_rest_check_manager_permissions()": {
+            "prefix": "wc_rest_check_manager_permissions",
+            "body": "wc_rest_check_manager_permissions( ${1:object}${2:, ${3:context}} )"
+        },
+        "Function: wc_update_product_stock()": {
+            "prefix": "wc_update_product_stock",
+            "body": "wc_update_product_stock( ${1:product}${2:, ${3:stock_quantity}${4:, ${5:operation}}} )"
+        },
+        "Function: wc_update_product_stock_status()": {
+            "prefix": "wc_update_product_stock_status",
+            "body": "wc_update_product_stock_status( ${1:product_id}, ${2:status} )"
+        },
+        "Function: wc_maybe_reduce_stock_levels()": {
+            "prefix": "wc_maybe_reduce_stock_levels",
+            "body": "wc_maybe_reduce_stock_levels( ${1:order_id} )"
+        },
+        "Function: wc_reduce_stock_levels()": {
+            "prefix": "wc_reduce_stock_levels",
+            "body": "wc_reduce_stock_levels( ${1:order_id} )"
+        },
+        "Function: wc_template_redirect()": {
+            "prefix": "wc_template_redirect",
+            "body": "wc_template_redirect()"
+        },
+        "Function: wc_send_frame_options_header()": {
+            "prefix": "wc_send_frame_options_header",
+            "body": "wc_send_frame_options_header()"
+        },
+        "Function: wc_prevent_endpoint_indexing()": {
+            "prefix": "wc_prevent_endpoint_indexing",
+            "body": "wc_prevent_endpoint_indexing()"
+        },
+        "Function: wc_prevent_adjacent_posts_rel_link_wp_head()": {
+            "prefix": "wc_prevent_adjacent_posts_rel_link_wp_head",
+            "body": "wc_prevent_adjacent_posts_rel_link_wp_head()"
+        },
+        "Function: wc_gallery_noscript()": {
+            "prefix": "wc_gallery_noscript",
+            "body": "wc_gallery_noscript()"
+        },
+        "Function: wc_setup_product_data()": {
+            "prefix": "wc_setup_product_data",
+            "body": "wc_setup_product_data( ${1:post} )"
+        },
+        "Function: woocommerce_reset_loop()": {
+            "prefix": "woocommerce_reset_loop",
+            "body": "woocommerce_reset_loop()"
+        },
+        "Function: wc_products_rss_feed()": {
+            "prefix": "wc_products_rss_feed",
+            "body": "wc_products_rss_feed()"
+        },
+        "Function: wc_generator_tag()": {
+            "prefix": "wc_generator_tag",
+            "body": "wc_generator_tag( ${1:gen}, ${2:type} )"
+        },
+        "Function: wc_body_class()": {
+            "prefix": "wc_body_class",
+            "body": "wc_body_class( ${1:classes} )"
+        },
+        "Function: wc_product_cat_class()": {
+            "prefix": "wc_product_cat_class",
+            "body": "wc_product_cat_class( ${1:${2:class}${3:, ${4:category}}} )"
+        },
+        "Function: wc_get_loop_class()": {
+            "prefix": "wc_get_loop_class",
+            "body": "wc_get_loop_class()"
+        },
+        "Function: wc_get_product_cat_class()": {
+            "prefix": "wc_get_product_cat_class",
+            "body": "wc_get_product_cat_class( ${1:${2:class}${3:, ${4:category}}} )"
+        },
+        "Function: wc_product_post_class()": {
+            "prefix": "wc_product_post_class",
+            "body": "wc_product_post_class( ${1:classes}${2:, ${3:class}${4:, ${5:post_id}}} )"
+        },
+        "Function: wc_query_string_form_fields()": {
+            "prefix": "wc_query_string_form_fields",
+            "body": "wc_query_string_form_fields( ${1:${2:values}${3:, ${4:exclude}${5:, ${6:current_key}${7:, ${8:return}}}}} )"
+        },
+        "Function: woocommerce_content()": {
+            "prefix": "woocommerce_content",
+            "body": "woocommerce_content()"
+        },
+        "Function: woocommerce_output_content_wrapper()": {
+            "prefix": "woocommerce_output_content_wrapper",
+            "body": "woocommerce_output_content_wrapper()"
+        },
+        "Function: woocommerce_output_content_wrapper_end()": {
+            "prefix": "woocommerce_output_content_wrapper_end",
+            "body": "woocommerce_output_content_wrapper_end()"
+        },
+        "Function: woocommerce_get_sidebar()": {
+            "prefix": "woocommerce_get_sidebar",
+            "body": "woocommerce_get_sidebar()"
+        },
+        "Function: woocommerce_demo_store()": {
+            "prefix": "woocommerce_demo_store",
+            "body": "woocommerce_demo_store()"
+        },
+        "Function: woocommerce_page_title()": {
+            "prefix": "woocommerce_page_title",
+            "body": "woocommerce_page_title( ${1:echo} )"
+        },
+        "Function: woocommerce_product_loop_start()": {
+            "prefix": "woocommerce_product_loop_start",
+            "body": "woocommerce_product_loop_start( ${1:echo} )"
+        },
+        "Function: woocommerce_product_loop_end()": {
+            "prefix": "woocommerce_product_loop_end",
+            "body": "woocommerce_product_loop_end( ${1:echo} )"
+        },
+        "Function: woocommerce_template_loop_product_title()": {
+            "prefix": "woocommerce_template_loop_product_title",
+            "body": "woocommerce_template_loop_product_title()"
+        },
+        "Function: woocommerce_template_loop_category_title()": {
+            "prefix": "woocommerce_template_loop_category_title",
+            "body": "woocommerce_template_loop_category_title( ${1:category} )"
+        },
+        "Function: woocommerce_template_loop_product_link_open()": {
+            "prefix": "woocommerce_template_loop_product_link_open",
+            "body": "woocommerce_template_loop_product_link_open()"
+        },
+        "Function: woocommerce_template_loop_product_link_close()": {
+            "prefix": "woocommerce_template_loop_product_link_close",
+            "body": "woocommerce_template_loop_product_link_close()"
+        },
+        "Function: woocommerce_template_loop_category_link_open()": {
+            "prefix": "woocommerce_template_loop_category_link_open",
+            "body": "woocommerce_template_loop_category_link_open( ${1:category} )"
+        },
+        "Function: woocommerce_template_loop_category_link_close()": {
+            "prefix": "woocommerce_template_loop_category_link_close",
+            "body": "woocommerce_template_loop_category_link_close()"
+        },
+        "Function: woocommerce_taxonomy_archive_description()": {
+            "prefix": "woocommerce_taxonomy_archive_description",
+            "body": "woocommerce_taxonomy_archive_description()"
+        },
+        "Function: woocommerce_product_archive_description()": {
+            "prefix": "woocommerce_product_archive_description",
+            "body": "woocommerce_product_archive_description()"
+        },
+        "Function: woocommerce_template_loop_add_to_cart()": {
+            "prefix": "woocommerce_template_loop_add_to_cart",
+            "body": "woocommerce_template_loop_add_to_cart( ${1:args} )"
+        },
+        "Function: woocommerce_template_loop_product_thumbnail()": {
+            "prefix": "woocommerce_template_loop_product_thumbnail",
+            "body": "woocommerce_template_loop_product_thumbnail()"
+        },
+        "Function: woocommerce_template_loop_price()": {
+            "prefix": "woocommerce_template_loop_price",
+            "body": "woocommerce_template_loop_price()"
+        },
+        "Function: woocommerce_template_loop_rating()": {
+            "prefix": "woocommerce_template_loop_rating",
+            "body": "woocommerce_template_loop_rating()"
+        },
+        "Function: woocommerce_show_product_loop_sale_flash()": {
+            "prefix": "woocommerce_show_product_loop_sale_flash",
+            "body": "woocommerce_show_product_loop_sale_flash()"
+        },
+        "Function: woocommerce_get_product_thumbnail()": {
+            "prefix": "woocommerce_get_product_thumbnail",
+            "body": "woocommerce_get_product_thumbnail( ${1:${2:size}${3:, ${4:deprecated1}${5:, ${6:deprecated2}}}} )"
+        },
+        "Function: woocommerce_result_count()": {
+            "prefix": "woocommerce_result_count",
+            "body": "woocommerce_result_count()"
+        },
+        "Function: woocommerce_catalog_ordering()": {
+            "prefix": "woocommerce_catalog_ordering",
+            "body": "woocommerce_catalog_ordering()"
+        },
+        "Function: woocommerce_pagination()": {
+            "prefix": "woocommerce_pagination",
+            "body": "woocommerce_pagination()"
+        },
+        "Function: woocommerce_show_product_images()": {
+            "prefix": "woocommerce_show_product_images",
+            "body": "woocommerce_show_product_images()"
+        },
+        "Function: woocommerce_show_product_thumbnails()": {
+            "prefix": "woocommerce_show_product_thumbnails",
+            "body": "woocommerce_show_product_thumbnails()"
+        },
+        "Function: woocommerce_output_product_data_tabs()": {
+            "prefix": "woocommerce_output_product_data_tabs",
+            "body": "woocommerce_output_product_data_tabs()"
+        },
+        "Function: woocommerce_template_single_title()": {
+            "prefix": "woocommerce_template_single_title",
+            "body": "woocommerce_template_single_title()"
+        },
+        "Function: woocommerce_template_single_rating()": {
+            "prefix": "woocommerce_template_single_rating",
+            "body": "woocommerce_template_single_rating()"
+        },
+        "Function: woocommerce_template_single_price()": {
+            "prefix": "woocommerce_template_single_price",
+            "body": "woocommerce_template_single_price()"
+        },
+        "Function: woocommerce_template_single_excerpt()": {
+            "prefix": "woocommerce_template_single_excerpt",
+            "body": "woocommerce_template_single_excerpt()"
+        },
+        "Function: woocommerce_template_single_meta()": {
+            "prefix": "woocommerce_template_single_meta",
+            "body": "woocommerce_template_single_meta()"
+        },
+        "Function: woocommerce_template_single_sharing()": {
+            "prefix": "woocommerce_template_single_sharing",
+            "body": "woocommerce_template_single_sharing()"
+        },
+        "Function: woocommerce_show_product_sale_flash()": {
+            "prefix": "woocommerce_show_product_sale_flash",
+            "body": "woocommerce_show_product_sale_flash()"
+        },
+        "Function: woocommerce_template_single_add_to_cart()": {
+            "prefix": "woocommerce_template_single_add_to_cart",
+            "body": "woocommerce_template_single_add_to_cart()"
+        },
+        "Function: woocommerce_simple_add_to_cart()": {
+            "prefix": "woocommerce_simple_add_to_cart",
+            "body": "woocommerce_simple_add_to_cart()"
+        },
+        "Function: woocommerce_grouped_add_to_cart()": {
+            "prefix": "woocommerce_grouped_add_to_cart",
+            "body": "woocommerce_grouped_add_to_cart()"
+        },
+        "Function: woocommerce_variable_add_to_cart()": {
+            "prefix": "woocommerce_variable_add_to_cart",
+            "body": "woocommerce_variable_add_to_cart()"
+        },
+        "Function: woocommerce_external_add_to_cart()": {
+            "prefix": "woocommerce_external_add_to_cart",
+            "body": "woocommerce_external_add_to_cart()"
+        },
+        "Function: woocommerce_quantity_input()": {
+            "prefix": "woocommerce_quantity_input",
+            "body": "woocommerce_quantity_input( ${1:${2:args}${3:, ${4:product}${5:, ${6:echo}}}} )"
+        },
+        "Function: woocommerce_product_description_tab()": {
+            "prefix": "woocommerce_product_description_tab",
+            "body": "woocommerce_product_description_tab()"
+        },
+        "Function: woocommerce_product_additional_information_tab()": {
+            "prefix": "woocommerce_product_additional_information_tab",
+            "body": "woocommerce_product_additional_information_tab()"
+        },
+        "Function: woocommerce_product_reviews_tab()": {
+            "prefix": "woocommerce_product_reviews_tab",
+            "body": "woocommerce_product_reviews_tab()"
+        },
+        "Function: woocommerce_default_product_tabs()": {
+            "prefix": "woocommerce_default_product_tabs",
+            "body": "woocommerce_default_product_tabs( ${1:tabs} )"
+        },
+        "Function: woocommerce_sort_product_tabs()": {
+            "prefix": "woocommerce_sort_product_tabs",
+            "body": "woocommerce_sort_product_tabs( ${1:tabs} )"
+        },
+        "Function: _sort_priority_callback()": {
+            "prefix": "_sort_priority_callback",
+            "body": "_sort_priority_callback( ${1:a}, ${2:b} )"
+        },
+        "Function: woocommerce_comments()": {
+            "prefix": "woocommerce_comments",
+            "body": "woocommerce_comments( ${1:comment}, ${2:args}, ${3:depth} )"
+        },
+        "Function: woocommerce_review_display_gravatar()": {
+            "prefix": "woocommerce_review_display_gravatar",
+            "body": "woocommerce_review_display_gravatar( ${1:comment} )"
+        },
+        "Function: woocommerce_review_display_rating()": {
+            "prefix": "woocommerce_review_display_rating",
+            "body": "woocommerce_review_display_rating()"
+        },
+        "Function: woocommerce_review_display_meta()": {
+            "prefix": "woocommerce_review_display_meta",
+            "body": "woocommerce_review_display_meta()"
+        },
+        "Function: woocommerce_review_display_comment_text()": {
+            "prefix": "woocommerce_review_display_comment_text",
+            "body": "woocommerce_review_display_comment_text()"
+        },
+        "Function: woocommerce_output_related_products()": {
+            "prefix": "woocommerce_output_related_products",
+            "body": "woocommerce_output_related_products()"
+        },
+        "Function: woocommerce_related_products()": {
+            "prefix": "woocommerce_related_products",
+            "body": "woocommerce_related_products( ${1:args} )"
+        },
+        "Function: woocommerce_upsell_display()": {
+            "prefix": "woocommerce_upsell_display",
+            "body": "woocommerce_upsell_display( ${1:${2:limit}${3:, ${4:columns}${5:, ${6:orderby}${7:, ${8:order}}}}} )"
+        },
+        "Function: woocommerce_shipping_calculator()": {
+            "prefix": "woocommerce_shipping_calculator",
+            "body": "woocommerce_shipping_calculator()"
+        },
+        "Function: woocommerce_cart_totals()": {
+            "prefix": "woocommerce_cart_totals",
+            "body": "woocommerce_cart_totals()"
+        },
+        "Function: woocommerce_cross_sell_display()": {
+            "prefix": "woocommerce_cross_sell_display",
+            "body": "woocommerce_cross_sell_display( ${1:${2:limit}${3:, ${4:columns}${5:, ${6:orderby}${7:, ${8:order}}}}} )"
+        },
+        "Function: woocommerce_button_proceed_to_checkout()": {
+            "prefix": "woocommerce_button_proceed_to_checkout",
+            "body": "woocommerce_button_proceed_to_checkout()"
+        },
+        "Function: woocommerce_widget_shopping_cart_button_view_cart()": {
+            "prefix": "woocommerce_widget_shopping_cart_button_view_cart",
+            "body": "woocommerce_widget_shopping_cart_button_view_cart()"
+        },
+        "Function: woocommerce_widget_shopping_cart_proceed_to_checkout()": {
+            "prefix": "woocommerce_widget_shopping_cart_proceed_to_checkout",
+            "body": "woocommerce_widget_shopping_cart_proceed_to_checkout()"
+        },
+        "Function: woocommerce_mini_cart()": {
+            "prefix": "woocommerce_mini_cart",
+            "body": "woocommerce_mini_cart( ${1:args} )"
+        },
+        "Function: woocommerce_login_form()": {
+            "prefix": "woocommerce_login_form",
+            "body": "woocommerce_login_form( ${1:args} )"
+        },
+        "Function: woocommerce_checkout_login_form()": {
+            "prefix": "woocommerce_checkout_login_form",
+            "body": "woocommerce_checkout_login_form()"
+        },
+        "Function: woocommerce_breadcrumb()": {
+            "prefix": "woocommerce_breadcrumb",
+            "body": "woocommerce_breadcrumb( ${1:args} )"
+        },
+        "Function: woocommerce_order_review()": {
+            "prefix": "woocommerce_order_review",
+            "body": "woocommerce_order_review( ${1:deprecated} )"
+        },
+        "Function: woocommerce_checkout_payment()": {
+            "prefix": "woocommerce_checkout_payment",
+            "body": "woocommerce_checkout_payment()"
+        },
+        "Function: woocommerce_checkout_coupon_form()": {
+            "prefix": "woocommerce_checkout_coupon_form",
+            "body": "woocommerce_checkout_coupon_form()"
+        },
+        "Function: woocommerce_products_will_display()": {
+            "prefix": "woocommerce_products_will_display",
+            "body": "woocommerce_products_will_display()"
+        },
+        "Function: woocommerce_product_subcategories()": {
+            "prefix": "woocommerce_product_subcategories",
+            "body": "woocommerce_product_subcategories( ${1:args} )"
+        },
+        "Function: woocommerce_subcategory_thumbnail()": {
+            "prefix": "woocommerce_subcategory_thumbnail",
+            "body": "woocommerce_subcategory_thumbnail( ${1:category} )"
+        },
+        "Function: woocommerce_order_details_table()": {
+            "prefix": "woocommerce_order_details_table",
+            "body": "woocommerce_order_details_table( ${1:order_id} )"
+        },
+        "Function: woocommerce_order_downloads_table()": {
+            "prefix": "woocommerce_order_downloads_table",
+            "body": "woocommerce_order_downloads_table( ${1:downloads} )"
+        },
+        "Function: woocommerce_order_again_button()": {
+            "prefix": "woocommerce_order_again_button",
+            "body": "woocommerce_order_again_button( ${1:order} )"
+        },
+        "Function: woocommerce_form_field()": {
+            "prefix": "woocommerce_form_field",
+            "body": "woocommerce_form_field( ${1:key}, ${2:args}${3:, ${4:value}} )"
+        },
+        "Function: get_product_search_form()": {
+            "prefix": "get_product_search_form",
+            "body": "get_product_search_form( ${1:echo} )"
+        },
+        "Function: woocommerce_output_auth_header()": {
+            "prefix": "woocommerce_output_auth_header",
+            "body": "woocommerce_output_auth_header()"
+        },
+        "Function: woocommerce_output_auth_footer()": {
+            "prefix": "woocommerce_output_auth_footer",
+            "body": "woocommerce_output_auth_footer()"
+        },
+        "Function: woocommerce_single_variation()": {
+            "prefix": "woocommerce_single_variation",
+            "body": "woocommerce_single_variation()"
+        },
+        "Function: woocommerce_single_variation_add_to_cart_button()": {
+            "prefix": "woocommerce_single_variation_add_to_cart_button",
+            "body": "woocommerce_single_variation_add_to_cart_button()"
+        },
+        "Function: wc_dropdown_variation_attribute_options()": {
+            "prefix": "wc_dropdown_variation_attribute_options",
+            "body": "wc_dropdown_variation_attribute_options( ${1:args} )"
+        },
+        "Function: woocommerce_account_content()": {
+            "prefix": "woocommerce_account_content",
+            "body": "woocommerce_account_content()"
+        },
+        "Function: woocommerce_account_navigation()": {
+            "prefix": "woocommerce_account_navigation",
+            "body": "woocommerce_account_navigation()"
+        },
+        "Function: woocommerce_account_orders()": {
+            "prefix": "woocommerce_account_orders",
+            "body": "woocommerce_account_orders( ${1:current_page} )"
+        },
+        "Function: woocommerce_account_view_order()": {
+            "prefix": "woocommerce_account_view_order",
+            "body": "woocommerce_account_view_order( ${1:order_id} )"
+        },
+        "Function: woocommerce_account_downloads()": {
+            "prefix": "woocommerce_account_downloads",
+            "body": "woocommerce_account_downloads()"
+        },
+        "Function: woocommerce_account_edit_address()": {
+            "prefix": "woocommerce_account_edit_address",
+            "body": "woocommerce_account_edit_address( ${1:type} )"
+        },
+        "Function: woocommerce_account_payment_methods()": {
+            "prefix": "woocommerce_account_payment_methods",
+            "body": "woocommerce_account_payment_methods()"
+        },
+        "Function: woocommerce_account_add_payment_method()": {
+            "prefix": "woocommerce_account_add_payment_method",
+            "body": "woocommerce_account_add_payment_method()"
+        },
+        "Function: woocommerce_account_edit_account()": {
+            "prefix": "woocommerce_account_edit_account",
+            "body": "woocommerce_account_edit_account()"
+        },
+        "Function: wc_no_products_found()": {
+            "prefix": "wc_no_products_found",
+            "body": "wc_no_products_found()"
+        },
+        "Function: wc_get_email_order_items()": {
+            "prefix": "wc_get_email_order_items",
+            "body": "wc_get_email_order_items( ${1:order}${2:, ${3:args}} )"
+        },
+        "Function: wc_display_item_meta()": {
+            "prefix": "wc_display_item_meta",
+            "body": "wc_display_item_meta( ${1:item}${2:, ${3:args}} )"
+        },
+        "Function: wc_display_item_downloads()": {
+            "prefix": "wc_display_item_downloads",
+            "body": "wc_display_item_downloads( ${1:item}${2:, ${3:args}} )"
+        },
+        "Function: woocommerce_photoswipe()": {
+            "prefix": "woocommerce_photoswipe",
+            "body": "woocommerce_photoswipe()"
+        },
+        "Function: wc_display_product_attributes()": {
+            "prefix": "wc_display_product_attributes",
+            "body": "wc_display_product_attributes( ${1:product} )"
+        },
+        "Function: wc_get_stock_html()": {
+            "prefix": "wc_get_stock_html",
+            "body": "wc_get_stock_html( ${1:product} )"
+        },
+        "Function: wc_get_rating_html()": {
+            "prefix": "wc_get_rating_html",
+            "body": "wc_get_rating_html( ${1:rating}${2:, ${3:count}} )"
+        },
+        "Function: wc_get_star_rating_html()": {
+            "prefix": "wc_get_star_rating_html",
+            "body": "wc_get_star_rating_html( ${1:rating}${2:, ${3:count}} )"
+        },
+        "Function: wc_get_price_html_from_text()": {
+            "prefix": "wc_get_price_html_from_text",
+            "body": "wc_get_price_html_from_text()"
+        },
+        "Function: wc_logout_url()": {
+            "prefix": "wc_logout_url",
+            "body": "wc_logout_url( ${1:redirect} )"
+        },
+        "Function: wc_empty_cart_message()": {
+            "prefix": "wc_empty_cart_message",
+            "body": "wc_empty_cart_message()"
+        },
+        "Function: wc_page_noindex()": {
+            "prefix": "wc_page_noindex",
+            "body": "wc_page_noindex()"
+        },
+        "Function: wc_get_object_terms()": {
+            "prefix": "wc_get_object_terms",
+            "body": "wc_get_object_terms( ${1:object_id}, ${2:taxonomy}${3:, ${4:field}${5:, ${6:index_key}}} )"
+        },
+        "Function: _wc_get_cached_product_terms()": {
+            "prefix": "_wc_get_cached_product_terms",
+            "body": "_wc_get_cached_product_terms( ${1:product_id}, ${2:taxonomy}${3:, ${4:args}} )"
+        },
+        "Function: wc_get_product_terms()": {
+            "prefix": "wc_get_product_terms",
+            "body": "wc_get_product_terms( ${1:product_id}, ${2:taxonomy}${3:, ${4:args}} )"
+        },
+        "Function: _wc_get_product_terms_name_num_usort_callback()": {
+            "prefix": "_wc_get_product_terms_name_num_usort_callback",
+            "body": "_wc_get_product_terms_name_num_usort_callback( ${1:a}, ${2:b} )"
+        },
+        "Function: _wc_get_product_terms_parent_usort_callback()": {
+            "prefix": "_wc_get_product_terms_parent_usort_callback",
+            "body": "_wc_get_product_terms_parent_usort_callback( ${1:a}, ${2:b} )"
+        },
+        "Function: wc_product_dropdown_categories()": {
+            "prefix": "wc_product_dropdown_categories",
+            "body": "wc_product_dropdown_categories( ${1:args} )"
+        },
+        "Function: wc_walk_category_dropdown_tree()": {
+            "prefix": "wc_walk_category_dropdown_tree",
+            "body": "wc_walk_category_dropdown_tree()"
+        },
+        "Function: wc_taxonomy_metadata_update_content_for_split_terms()": {
+            "prefix": "wc_taxonomy_metadata_update_content_for_split_terms",
+            "body": "wc_taxonomy_metadata_update_content_for_split_terms( ${1:old_term_id}, ${2:new_term_id}, ${3:term_taxonomy_id}, ${4:taxonomy} )"
+        },
+        "Function: wc_taxonomy_metadata_migrate_data()": {
+            "prefix": "wc_taxonomy_metadata_migrate_data",
+            "body": "wc_taxonomy_metadata_migrate_data( ${1:wp_db_version}, ${2:wp_current_db_version} )"
+        },
+        "Function: update_woocommerce_term_meta()": {
+            "prefix": "update_woocommerce_term_meta",
+            "body": "update_woocommerce_term_meta( ${1:term_id}, ${2:meta_key}, ${3:meta_value}${4:, ${5:prev_value}} )"
+        },
+        "Function: add_woocommerce_term_meta()": {
+            "prefix": "add_woocommerce_term_meta",
+            "body": "add_woocommerce_term_meta( ${1:term_id}, ${2:meta_key}, ${3:meta_value}${4:, ${5:unique}} )"
+        },
+        "Function: delete_woocommerce_term_meta()": {
+            "prefix": "delete_woocommerce_term_meta",
+            "body": "delete_woocommerce_term_meta( ${1:term_id}, ${2:meta_key}${3:, ${4:meta_value}${5:, ${6:deprecated}}} )"
+        },
+        "Function: get_woocommerce_term_meta()": {
+            "prefix": "get_woocommerce_term_meta",
+            "body": "get_woocommerce_term_meta( ${1:term_id}, ${2:key}${3:, ${4:single}} )"
+        },
+        "Function: wc_reorder_terms()": {
+            "prefix": "wc_reorder_terms",
+            "body": "wc_reorder_terms( ${1:the_term}, ${2:next_id}, ${3:taxonomy}${4:, ${5:index}${6:, ${7:terms}}} )"
+        },
+        "Function: wc_set_term_order()": {
+            "prefix": "wc_set_term_order",
+            "body": "wc_set_term_order( ${1:term_id}, ${2:index}, ${3:taxonomy}${4:, ${5:recursive}} )"
+        },
+        "Function: wc_terms_clauses()": {
+            "prefix": "wc_terms_clauses",
+            "body": "wc_terms_clauses( ${1:clauses}, ${2:taxonomies}, ${3:args} )"
+        },
+        "Function: _wc_term_recount()": {
+            "prefix": "_wc_term_recount",
+            "body": "_wc_term_recount( ${1:terms}, ${2:taxonomy}${3:, ${4:callback}${5:, ${6:terms_are_term_taxonomy_ids}}} )"
+        },
+        "Function: wc_recount_after_stock_change()": {
+            "prefix": "wc_recount_after_stock_change",
+            "body": "wc_recount_after_stock_change( ${1:product_id} )"
+        },
+        "Function: wc_change_term_counts()": {
+            "prefix": "wc_change_term_counts",
+            "body": "wc_change_term_counts( ${1:terms}, ${2:taxonomies} )"
+        },
+        "Function: wc_get_term_product_ids()": {
+            "prefix": "wc_get_term_product_ids",
+            "body": "wc_get_term_product_ids( ${1:term_id}, ${2:taxonomy} )"
+        },
+        "Function: wc_clear_term_product_ids()": {
+            "prefix": "wc_clear_term_product_ids",
+            "body": "wc_clear_term_product_ids( ${1:object_id}, ${2:terms}, ${3:tt_ids}, ${4:taxonomy}, ${5:append}, ${6:old_tt_ids} )"
+        },
+        "Function: wc_get_product_visibility_term_ids()": {
+            "prefix": "wc_get_product_visibility_term_ids",
+            "body": "wc_get_product_visibility_term_ids()"
+        },
+        "Function: wc_disable_admin_bar()": {
+            "prefix": "wc_disable_admin_bar",
+            "body": "wc_disable_admin_bar( ${1:show_admin_bar} )"
+        },
+        "Function: wc_create_new_customer()": {
+            "prefix": "wc_create_new_customer",
+            "body": "wc_create_new_customer( ${1:email}${2:, ${3:username}${4:, ${5:password}}} )"
+        },
+        "Function: wc_set_customer_auth_cookie()": {
+            "prefix": "wc_set_customer_auth_cookie",
+            "body": "wc_set_customer_auth_cookie( ${1:customer_id} )"
+        },
+        "Function: wc_update_new_customer_past_orders()": {
+            "prefix": "wc_update_new_customer_past_orders",
+            "body": "wc_update_new_customer_past_orders( ${1:customer_id} )"
+        },
+        "Function: wc_paying_customer()": {
+            "prefix": "wc_paying_customer",
+            "body": "wc_paying_customer( ${1:order_id} )"
+        },
+        "Function: wc_customer_bought_product()": {
+            "prefix": "wc_customer_bought_product",
+            "body": "wc_customer_bought_product( ${1:customer_email}, ${2:user_id}, ${3:product_id} )"
+        },
+        "Function: wc_customer_has_capability()": {
+            "prefix": "wc_customer_has_capability",
+            "body": "wc_customer_has_capability( ${1:allcaps}, ${2:caps}, ${3:args} )"
+        },
+        "Function: wc_modify_editable_roles()": {
+            "prefix": "wc_modify_editable_roles",
+            "body": "wc_modify_editable_roles( ${1:roles} )"
+        },
+        "Function: wc_modify_map_meta_cap()": {
+            "prefix": "wc_modify_map_meta_cap",
+            "body": "wc_modify_map_meta_cap( ${1:caps}, ${2:cap}, ${3:user_id}, ${4:args} )"
+        },
+        "Function: wc_get_customer_download_permissions()": {
+            "prefix": "wc_get_customer_download_permissions",
+            "body": "wc_get_customer_download_permissions( ${1:customer_id} )"
+        },
+        "Function: wc_get_customer_available_downloads()": {
+            "prefix": "wc_get_customer_available_downloads",
+            "body": "wc_get_customer_available_downloads( ${1:customer_id} )"
+        },
+        "Function: wc_get_customer_total_spent()": {
+            "prefix": "wc_get_customer_total_spent",
+            "body": "wc_get_customer_total_spent( ${1:user_id} )"
+        },
+        "Function: wc_get_customer_order_count()": {
+            "prefix": "wc_get_customer_order_count",
+            "body": "wc_get_customer_order_count( ${1:user_id} )"
+        },
+        "Function: wc_reset_order_customer_id_on_deleted_user()": {
+            "prefix": "wc_reset_order_customer_id_on_deleted_user",
+            "body": "wc_reset_order_customer_id_on_deleted_user( ${1:user_id} )"
+        },
+        "Function: wc_review_is_from_verified_owner()": {
+            "prefix": "wc_review_is_from_verified_owner",
+            "body": "wc_review_is_from_verified_owner( ${1:comment_id} )"
+        },
+        "Function: wc_disable_author_archives_for_customers()": {
+            "prefix": "wc_disable_author_archives_for_customers",
+            "body": "wc_disable_author_archives_for_customers()"
+        },
+        "Function: wc_update_profile_last_update_time()": {
+            "prefix": "wc_update_profile_last_update_time",
+            "body": "wc_update_profile_last_update_time( ${1:user_id}, ${2:old} )"
+        },
+        "Function: wc_meta_update_last_update_time()": {
+            "prefix": "wc_meta_update_last_update_time",
+            "body": "wc_meta_update_last_update_time( ${1:meta_id}, ${2:user_id}, ${3:meta_key}, ${4:_meta_value} )"
+        },
+        "Function: wc_set_user_last_update_time()": {
+            "prefix": "wc_set_user_last_update_time",
+            "body": "wc_set_user_last_update_time( ${1:user_id} )"
+        },
+        "Function: wc_get_customer_saved_methods_list()": {
+            "prefix": "wc_get_customer_saved_methods_list",
+            "body": "wc_get_customer_saved_methods_list( ${1:customer_id} )"
+        },
+        "Function: wc_get_customer_last_order()": {
+            "prefix": "wc_get_customer_last_order",
+            "body": "wc_get_customer_last_order( ${1:customer_id} )"
+        },
+        "Function: wc_user_search_columns()": {
+            "prefix": "wc_user_search_columns",
+            "body": "wc_user_search_columns( ${1:search_columns} )"
+        },
+        "Function: wc_get_webhook_statuses()": {
+            "prefix": "wc_get_webhook_statuses",
+            "body": "wc_get_webhook_statuses()"
+        },
+        "Function: wc_register_widgets()": {
+            "prefix": "wc_register_widgets",
+            "body": "wc_register_widgets()"
+        },
+        "Function: wc_get_screen_ids()": {
+            "prefix": "wc_get_screen_ids",
+            "body": "wc_get_screen_ids()"
+        },
+        "Function: wc_create_page()": {
+            "prefix": "wc_create_page",
+            "body": "wc_create_page( ${1:slug}${2:, ${3:option}${4:, ${5:page_title}${6:, ${7:page_content}${8:, ${9:post_parent}}}}} )"
+        },
+        "Function: woocommerce_admin_fields()": {
+            "prefix": "woocommerce_admin_fields",
+            "body": "woocommerce_admin_fields( ${1:options} )"
+        },
+        "Function: woocommerce_update_options()": {
+            "prefix": "woocommerce_update_options",
+            "body": "woocommerce_update_options( ${1:options}${2:, ${3:data}} )"
+        },
+        "Function: woocommerce_settings_get_option()": {
+            "prefix": "woocommerce_settings_get_option",
+            "body": "woocommerce_settings_get_option( ${1:option_name}${2:, ${3:default}} )"
+        },
+        "Function: wc_save_order_items()": {
+            "prefix": "wc_save_order_items",
+            "body": "wc_save_order_items( ${1:order_id}, ${2:items} )"
+        },
+        "Function: woocommerce_wp_text_input()": {
+            "prefix": "woocommerce_wp_text_input",
+            "body": "woocommerce_wp_text_input( ${1:field} )"
+        },
+        "Function: woocommerce_wp_hidden_input()": {
+            "prefix": "woocommerce_wp_hidden_input",
+            "body": "woocommerce_wp_hidden_input( ${1:field} )"
+        },
+        "Function: woocommerce_wp_textarea_input()": {
+            "prefix": "woocommerce_wp_textarea_input",
+            "body": "woocommerce_wp_textarea_input( ${1:field} )"
+        },
+        "Function: woocommerce_wp_checkbox()": {
+            "prefix": "woocommerce_wp_checkbox",
+            "body": "woocommerce_wp_checkbox( ${1:field} )"
+        },
+        "Function: woocommerce_wp_select()": {
+            "prefix": "woocommerce_wp_select",
+            "body": "woocommerce_wp_select( ${1:field} )"
+        },
+        "Function: woocommerce_wp_radio()": {
+            "prefix": "woocommerce_wp_radio",
+            "body": "woocommerce_wp_radio( ${1:field} )"
+        },
+        "Function: wc_importer_current_locale()": {
+            "prefix": "wc_importer_current_locale",
+            "body": "wc_importer_current_locale()"
+        },
+        "Function: wc_importer_default_english_mappings()": {
+            "prefix": "wc_importer_default_english_mappings",
+            "body": "wc_importer_default_english_mappings( ${1:mappings} )"
+        },
+        "Function: wc_importer_default_special_english_mappings()": {
+            "prefix": "wc_importer_default_special_english_mappings",
+            "body": "wc_importer_default_special_english_mappings( ${1:mappings} )"
+        },
+        "Function: wc_importer_generic_mappings()": {
+            "prefix": "wc_importer_generic_mappings",
+            "body": "wc_importer_generic_mappings( ${1:mappings} )"
+        },
+        "Function: wc_importer_wordpress_mappings()": {
+            "prefix": "wc_importer_wordpress_mappings",
+            "body": "wc_importer_wordpress_mappings( ${1:mappings} )"
+        }
+    }
+}

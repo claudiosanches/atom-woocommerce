@@ -1,0 +1,22 @@
+{
+  "name": "woocommerce",
+  "version": "0.0.0",
+  "description": "A collection of WooCommerce snippets and autocompletions.",
+  "keywords": [
+    "wordpress",
+    "woocommerce",
+    "snippets"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/claudiosanches/atom-woocommerce.git"
+  },
+  "bugs": {
+    "url": "https://github.com/claudiosanches/atom-woocommerce/issues"
+  },
+  "license": "GPLv3",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {}
+}
